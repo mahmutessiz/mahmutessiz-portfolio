@@ -20,8 +20,4 @@ export default {
     <MainSection />
     <ProjectSection />
   </header>
-
-  <main>
-    <TheWelcome />
-  </main>
 </template>

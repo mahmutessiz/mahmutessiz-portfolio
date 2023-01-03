@@ -12,7 +12,7 @@ export default {
 
 <template>
   <aside
-    class="fixed mt-40 ml-4 flex h-1/2 w-14 items-center justify-center rounded-2xl bg-primary-bg-black px-2"
+    class="fixed mt-40 ml-4 flex h-1/2 w-14 items-center justify-center rounded-2xl bg-primary-bg-black px-2 shadow-lg shadow-black"
   >
     <ul class="flex list-none flex-col">
       <li :class="sideBarItems.listStyles">
