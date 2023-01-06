@@ -3,7 +3,7 @@ export default {
   data() {
     return {
       sideBarItems: {
-        listStyles: "my-4 transition-transform hover:rotate-12",
+        listStyles: "my-4 cursor-pointer transition-transform hover:rotate-12",
         asideStyles:
           "fixed mt-40 ml-4 flex w-14 items-center justify-center rounded-2xl bg-primary-bg-black py-10 px-2 shadow-lg shadow-black",
       },
