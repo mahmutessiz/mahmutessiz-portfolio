@@ -1,14 +1,16 @@
 <script>
-import ProjectSectinItems from "./side-components/ProjectSectinItems.vue";
-
+import ProjectSectionItems from "./side-components/ProjectSectionItems.vue";
+import ChangeStyleButtons from "./side-components/ChangeStyleButtons.vue";
 export default {
   components: {
-    ProjectSectinItems,
+    ProjectSectionItems,
+    ChangeStyleButtons,
   },
 };
 </script>
 
 <template>
+
   <section
     class="flex flex-col items-center justify-center bg-primary-bg-black py-8"
   >
@@ -16,6 +18,7 @@ export default {
       <h2 class="text-3xl font-bold text-primary-text-thistle">Projects</h2>
       <div class="w-2/3 border-b"></div>
     </div>
-    <ProjectSectinItems />
+    <ChangeStyleButtons />
+    <ProjectSectionItems />
   </section>
 </template>

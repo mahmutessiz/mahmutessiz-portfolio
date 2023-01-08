@@ -1,8 +1,8 @@
 <template>
   <section
-    class="flex w-full h-screen items-center justify-center bg-primary-bg-darkslategray py-40 text-primary-text-thistle"
+    class="flex h-screen w-full items-center justify-center bg-primary-bg-darkslategray py-40 text-primary-text-thistle"
   >
-    <div class="w-1/2 md:w-3/4 max-w-screen-lg -mt-32">
+    <div class="-mt-32 w-1/2 max-w-screen-lg md:w-3/4">
       <br />
       <h1 class="text-center text-5xl font-bold">I'm Mahmut Eşsiz</h1>
       <hr />
