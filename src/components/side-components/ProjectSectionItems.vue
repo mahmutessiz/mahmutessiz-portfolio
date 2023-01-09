@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      deneme: "text-white",
+      deneme: "w-full h-60 border",
       listIn: ["1", "2", "3", "4", "5"],
       itemStyle: "h-80 w-80 border-2 border-solid border-white",
       itemStyle2: "w-full h-60 border",
