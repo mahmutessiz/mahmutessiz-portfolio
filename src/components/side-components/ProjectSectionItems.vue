@@ -2,21 +2,28 @@
 export default {
   data() {
     return {
-      deneme: "w-full h-60 border",
-      listIn: ["1", "2", "3", "4", "5"],
+      lastStyle: "w-full h-60 border rounded",
+      listIn: [
+        {
+          key: "1",
+          imageSrc: "../images/email.png",
+        },
+        { key: "2", imageSrc: "../images/email.png" },
+        { key: "3", imageSrc: "../images/email.png" },
+        { key: "4", imageSrc: "../images/email.png" },
+        { key: "5", imageSrc: "../images/email.png" },
+      ],
       itemStyle: "h-80 w-80 border-2 border-solid border-white",
       itemStyle2: "w-full h-60 border",
-      ulItemOrderStyle2:
-        "flex flex-wrap flex-col items-center justify-center gap-4 py-9",
       ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4 py-9",
     };
   },
   methods: {
     change1() {
-      return (this.deneme = this.itemStyle);
+      return (this.lastStyle = this.itemStyle);
     },
     change2() {
-      return (this.deneme = this.itemStyle2);
+      return (this.lastStyle = this.itemStyle2);
     },
   },
 };
@@ -46,8 +53,9 @@ export default {
 
   <div class="w-2/3 border-white">
     <ul :class="ulItemOrderStyle">
-      <li :class="deneme" v-for="item in listIn" :key="item">
-        {{ item }}
+      <li :class="lastStyle" v-for="item in listIn" :key="item.key">
+        {{ item.key }}
+        <img :src="item.imageSrc"  alt="" />
       </li>
     </ul>
   </div>
