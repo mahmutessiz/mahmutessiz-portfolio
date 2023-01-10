@@ -1,4 +1,5 @@
 <script>
+import thimage from "../images/email.png";
 export default {
   data() {
     return {
@@ -6,12 +7,12 @@ export default {
       listIn: [
         {
           key: "1",
-          imageSrc: "../images/email.png",
+          imageSrc: thimage,
         },
-        { key: "2", imageSrc: "../images/email.png" },
-        { key: "3", imageSrc: "../images/email.png" },
-        { key: "4", imageSrc: "../images/email.png" },
-        { key: "5", imageSrc: "../images/email.png" },
+        { key: "2", imageSrc: thimage },
+        { key: "3", imageSrc: thimage },
+        { key: "4", imageSrc: thimage },
+        { key: "5", imageSrc: thimage },
       ],
       itemStyle: "h-80 w-80 border-2 border-solid border-white",
       itemStyle2: "w-full h-60 border",
@@ -51,11 +52,19 @@ export default {
 
   <!-- xxxxxxxxxxxx  ITEMS xxxxxxxxxxxx -->
 
-  <div class="w-2/3 border-white">
+  <div class="w-3/4 border-white">
     <ul :class="ulItemOrderStyle">
       <li :class="lastStyle" v-for="item in listIn" :key="item.key">
-        {{ item.key }}
-        <img :src="item.imageSrc"  alt="" />
+        <img :src="item.imageSrc" class="w-1/2" alt="" />
+        <div class="mt-8 h-32 w-full border bg-slate-400">
+          <h3 class="text-center">Deneme</h3>
+          <hr />
+          <br />
+          <p class="overflow-hidden">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+            incidunt officia unde, eos corporis tenetur totam
+          </p>
+        </div>
       </li>
     </ul>
   </div>
