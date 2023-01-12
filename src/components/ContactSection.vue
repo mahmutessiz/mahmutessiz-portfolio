@@ -9,7 +9,7 @@
       action="https://formsubmit.co/mmagmun@gmail.com"
       target="_blank"
       method="POST"
-      class="mt-8 flex w-2/3 flex-row gap-4"
+      class="mt-8 flex w-2/3 flex-col items-center justify-center gap-4 md:flex-row"
     >
       <div class="flex flex-col items-center justify-center gap-4">
         <input
@@ -45,6 +45,7 @@
           class="resize-none bg-primary-bg-black text-secondary-text-silver shadow-md"
         ></textarea>
         <button
+          about="blank"
           class="cursor-pointer rounded-lg bg-primary-bg-black text-primary-text-thistle shadow-md"
         >
           Send

@@ -4,9 +4,11 @@ export default {
   data() {
     return {
       lastStyle: "w-full flex gap-4 text-white border rounded",
-      itemStyle: "w-80 border-2 border-solid border-white",
+      itemStyle: "w-96 border-2 border-solid border-white",
       itemStyle2: "w-full flex gap-4 text-white border rounded",
       ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4 py-9",
+      listItemParagraphStyle: "list-disc px-2",
+      centeredProjectName: "p-3 text-center text-lg font-bold",
 
       listIn: [
         {
@@ -59,10 +61,15 @@ export default {
   },
   methods: {
     change1() {
-      return (this.lastStyle = this.itemStyle);
+      this.lastStyle = this.itemStyle;
+      this.listItemParagraphStyle = "hidden";
+      this.centeredProjectName =
+        "z-10 -translate-y-36 p-3 text-center text-lg font-bold backdrop-blur-lg backdrop-filter";
     },
     change2() {
-      return (this.lastStyle = this.itemStyle2);
+      this.lastStyle = this.itemStyle2;
+      this.listItemParagraphStyle = "list-disc px-2";
+      this.centeredProjectName = "p-3 text-center text-lg font-bold";
     },
   },
 };
@@ -90,22 +97,29 @@ export default {
 
   <!-- xxxxxxxxxxxx  ITEMS xxxxxxxxxxxx -->
 
-  <div class="w-3/4 border-white">
+  <div
+    class="box-border w-3/4 rounded-lg border border-primary-text-thistle px-4"
+  >
     <ul :class="ulItemOrderStyle">
       <li :class="lastStyle" v-for="item in listIn" :key="item.key">
         <img
           :src="item.imageSrc"
-          class="w-96 cursor-pointer transition-all duration-500 hover:opacity-80"
+          class="w-96 cursor-pointer transition-all duration-500"
           alt=""
         />
-        <div class="">
-          <h3 class="text-center text-lg font-bold">{{ item.projectName }}</h3>
-          <hr />
-          <br />
-          <p class="px-2">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
-            incidunt officia unde, eos corporis tenetur totam
-          </p>
+        <div class="w-full bg-primary-bg-black text-center">
+          <h3 :class="centeredProjectName">
+            {{ item.projectName }}
+          </h3>
+
+          <ul :class="listItemParagraphStyle">
+            <li class="text-left">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+              incidunt officia unde, eos corporis tenetur totam
+            </li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
       </li>
     </ul>
