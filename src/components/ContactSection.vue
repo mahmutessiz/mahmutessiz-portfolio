@@ -22,7 +22,7 @@
         <input
           type="email"
           name="email"
-          placeholder=" Your e-mail address"
+          placeholder=" e-mail address"
           class="h-10 cursor-text border-b border-dashed bg-primary-bg-black text-secondary-text-silver"
           required
         />

@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <MainMenu class="sticky -top-2" />
+  <MainMenu class="sticky -top-2 z-10" />
   <SideBar />
   <MainSection />
   <ProjectSection />
