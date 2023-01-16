@@ -3,11 +3,12 @@ import pomodoro from "../images/pomodoro.png";
 export default {
   data() {
     return {
-      lastStyle: "w-full flex gap-4 text-white border rounded",
+      lastStyle:
+        "w-96 border-2 border-solid border-white text-primary-text-thistle",
       itemStyle: "w-96 border-2 border-solid border-white",
       itemStyle2: "w-full flex gap-4 text-white border rounded",
       ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4 py-9",
-      listItemParagraphStyle: "list-disc px-2",
+      listItemParagraphStyle: "list-none md:list-disc px-2 py-4 px-2",
       centeredProjectName: "p-3 text-center text-lg font-bold",
 
       listIn: [
@@ -78,7 +79,7 @@ export default {
 <template>
   <!-- xxxxxxxxxxx  BUTTONS xxxxxxxxxxxxx -->
 
-  <ul class="mt-4 flex items-end justify-end gap-4 p-6">
+  <ul class="mt-8 hidden items-end justify-end gap-4 p-6 md:mt-4 md:flex">
     <li class="cursor-pointer" @click="change2">
       <img
         class="h-12 hover:scale-110 active:scale-110"
