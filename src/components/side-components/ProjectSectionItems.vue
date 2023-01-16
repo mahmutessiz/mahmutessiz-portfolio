@@ -4,11 +4,13 @@ export default {
   data() {
     return {
       lastStyle:
-        "w-96 border-2 border-solid border-white text-primary-text-thistle",
-      itemStyle: "w-96 border-2 border-solid border-white",
-      itemStyle2: "w-full flex gap-4 text-white border rounded",
+        "w-96 border-2 border-solid border-primary-text-thistle text-primary-text-thistle md:w-full md:flex md:gap-4 md:rounded",
+      itemStyle:
+        "w-96 border-2 border-solid border-primary-text-thistle text-primary-text-thistle",
+      itemStyle2:
+        "w-full flex gap-4 border border-primary-text-thistle rounded text-primary-text-thistle",
       ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4 py-9",
-      listItemParagraphStyle: "list-none md:list-disc px-2 py-4 px-2",
+      listItemParagraphStyle: "px-2",
       centeredProjectName: "p-3 text-center text-lg font-bold",
 
       listIn: [
@@ -63,9 +65,7 @@ export default {
   methods: {
     change1() {
       this.lastStyle = this.itemStyle;
-      this.listItemParagraphStyle = "hidden";
-      this.centeredProjectName =
-        "z-10 -translate-y-36 p-3 text-center text-lg font-bold backdrop-blur-lg backdrop-filter";
+      this.listItemParagraphStyle = "list-none px-2";
     },
     change2() {
       this.lastStyle = this.itemStyle2;
@@ -113,12 +113,14 @@ export default {
             {{ item.projectName }}
           </h3>
 
-          <ul :class="listItemParagraphStyle">
-            <li class="text-left">
+          <ul :class="listItemParagraphStyle" class="text-left">
+            <li>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
               incidunt officia unde, eos corporis tenetur totam
             </li>
-            <li></li>
+            <br />
+            <li>Languages: vue.js, tailwind</li>
+            <br />
             <li></li>
           </ul>
         </div>
