@@ -73,6 +73,9 @@ export default {
       this.centeredProjectName = "p-3 text-center text-lg font-bold";
     },
   },
+  created() {
+    this.listItemParagraphStyle = "md:list-disc px-2";
+  },
 };
 </script>
 
