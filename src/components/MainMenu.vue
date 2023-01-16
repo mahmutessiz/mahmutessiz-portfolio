@@ -2,7 +2,13 @@
 export default {
   data() {
     return {
-      navList: ["About Me", "Projects", "Contact", "Resume"],
+      navList: [
+        { id: 1, text: "Home", href: "#" },
+        { id: 2, text: "Projects", href: "#project" },
+        { id: 3, text: "Contact", href: "#contact" },
+        { id: 4, text: "Resume", href: "#" },
+      ],
+
       navListStyle:
         "font-bold hover:text-white active:text-white transition-all duration-500 cursor-pointer",
       ulStyles:
@@ -16,8 +22,8 @@ export default {
   <header class="flex w-full justify-center bg-primary-bg-darkslategray">
     <nav>
       <ul :class="ulStyles">
-        <li :class="navListStyle" v-for="navList in navList" :key="navList">
-          {{ navList }}
+        <li :class="navListStyle" v-for="navList in navList" :key="navList.id">
+          <a :href="navList.href">{{ navList.text }}</a>
         </li>
       </ul>
     </nav>

@@ -1,6 +1,7 @@
 <template>
   <div
     class="flex h-screen flex-col items-center justify-center gap-4 bg-primary-bg-darkslategray"
+    id="contact"
   >
     <h2 class="text-3xl font-bold text-primary-text-thistle underline">
       Contact Form
