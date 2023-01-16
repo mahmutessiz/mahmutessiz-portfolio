@@ -98,7 +98,7 @@ export default {
   <!-- xxxxxxxxxxxx  ITEMS xxxxxxxxxxxx -->
 
   <div
-    class="box-border w-3/4 rounded-lg border border-primary-text-thistle px-4 relative"
+    class="relative box-border w-3/4 rounded-lg border border-primary-text-thistle px-4"
   >
     <ul :class="ulItemOrderStyle">
       <li :class="lastStyle" v-for="item in listIn" :key="item.key">
