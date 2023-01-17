@@ -4,13 +4,13 @@ export default {
   data() {
     return {
       lastStyle:
-        "w-96 border-2 border-solid border-primary-text-thistle text-primary-text-thistle md:w-full md:flex md:gap-4 md:rounded",
+        "w-96 border border-solid border-primary-text-thistle text-primary-text-thistle md:w-full md:flex md:gap-4 md:rounded-lg overflow-hidden",
       itemStyle:
-        "w-96 border-2 border-solid border-primary-text-thistle text-primary-text-thistle",
+        "w-96 border border-solid border-primary-text-thistle text-primary-text-thistle md:rounded-lg overflow-hidden",
       itemStyle2:
-        "w-full flex gap-4 border border-primary-text-thistle rounded text-primary-text-thistle",
-      ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4 py-9",
-      listItemParagraphStyle: "px-2",
+        "w-full flex gap-4 border border-primary-text-thistle rounded text-primary-text-thistle md:rounded-lg overflow-hidden",
+      ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4",
+      listItemParagraphStyle: "px-2  py-9",
       centeredProjectName: "p-3 text-center text-lg font-bold",
 
       listIn: [
@@ -101,9 +101,7 @@ export default {
 
   <!-- xxxxxxxxxxxx  ITEMS xxxxxxxxxxxx -->
 
-  <div
-    class="relative box-border w-3/4 rounded-lg border border-primary-text-thistle px-4"
-  >
+  <div class="relative box-border w-3/4 px-4">
     <ul :class="ulItemOrderStyle">
       <li :class="lastStyle" v-for="item in listIn" :key="item.key">
         <img
@@ -111,20 +109,24 @@ export default {
           class="w-96 cursor-pointer transition-all duration-500"
           alt=""
         />
-        <div class="w-full bg-primary-bg-black text-center">
+        <div class="w-full bg-primary-bg-black px-4 text-center">
           <h3 :class="centeredProjectName">
             {{ item.projectName }}
           </h3>
 
           <ul :class="listItemParagraphStyle" class="text-left">
             <li>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
-              incidunt officia unde, eos corporis tenetur totam
+              This is a pomodoro app that help you to consantrate to do what you
+              want in a given timespace.
             </li>
             <br />
             <li>Languages: vue.js, tailwind</li>
             <br />
-            <li></li>
+            <li>
+              Links: <a href="github.com" class="text-blue-400">Github</a> ,
+              <a href="demo.co" class="text-blue-400">Demo</a>
+            </li>
+            <br />
           </ul>
         </div>
       </li>
