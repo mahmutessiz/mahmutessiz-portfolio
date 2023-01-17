@@ -10,7 +10,7 @@ export default {
       itemStyle2:
         "w-full flex gap-4 border border-primary-text-thistle rounded text-primary-text-thistle md:rounded-lg overflow-hidden",
       ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4",
-      listItemParagraphStyle: "px-2  py-9",
+      listItemParagraphStyle: "",
       centeredProjectName: "p-3 text-center text-lg font-bold",
 
       listIn: [
@@ -65,7 +65,7 @@ export default {
   methods: {
     change1() {
       this.lastStyle = this.itemStyle;
-      this.listItemParagraphStyle = "list-none px-2";
+      this.listItemParagraphStyle = "md:list-disc px-4";
     },
     change2() {
       this.lastStyle = this.itemStyle2;
@@ -112,12 +112,13 @@ export default {
         <div class="w-full bg-primary-bg-black px-4 text-center">
           <h3 :class="centeredProjectName">
             {{ item.projectName }}
+            <hr />
           </h3>
 
           <ul :class="listItemParagraphStyle" class="text-left">
             <li>
-              This is a pomodoro app that help you to consantrate to do what you
-              want in a given timespace.
+              &nbsp;This is a pomodoro app that help you to consantrate to do
+              what you want in a given timespace.
             </li>
             <br />
             <li>Languages: vue.js, tailwind</li>
