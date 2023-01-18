@@ -22,6 +22,8 @@ export default {
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
           projectName: "Deneme",
+          github: "Github",
+          demo: "Demo",
         },
         {
           key: "2",
@@ -31,6 +33,8 @@ export default {
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
           projectName: "Deneme",
+          github: "Github",
+          demo: "Demo",
         },
         {
           key: "3",
@@ -40,6 +44,8 @@ export default {
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
           projectName: "Deneme",
+          github: "Github",
+          demo: "Demo",
         },
         {
           key: "4",
@@ -49,6 +55,8 @@ export default {
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
           projectName: "Deneme",
+          github: "Github",
+          demo: "Demo",
         },
         {
           key: "5",
@@ -58,6 +66,8 @@ export default {
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
           projectName: "Deneme",
+          github: "Github",
+          demo: "Demo",
         },
       ],
     };
@@ -124,8 +134,9 @@ export default {
             <li>Languages: vue.js, tailwind</li>
             <br />
             <li>
-              Links: <a href="github.com" class="text-blue-400">Github</a> ,
-              <a href="demo.co" class="text-blue-400">Demo</a>
+              Links:
+              <a href="github.com" class="text-blue-400">{{ item.github }}</a> ,
+              <a href="demo.co" class="text-blue-400">{{ item.demo }}</a>
             </li>
             <br />
           </ul>
