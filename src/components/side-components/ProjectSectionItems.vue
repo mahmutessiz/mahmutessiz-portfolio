@@ -1,5 +1,9 @@
 <script>
-import pomodoro from "../images/pomodoro.png";
+import pomodoro from "../images/pomodoro1.png";
+import todo from "../images/todo.png";
+import design1 from "../images/design1.png";
+import design2 from "../images/design2.png";
+import loomGym from "../images/loomgym.png";
 export default {
   data() {
     return {
@@ -22,50 +26,59 @@ export default {
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
           projectName: "Deneme",
+          projectDescription:
+            "This is a pomodoro app that help you to consantrate to do what you want in a given timespace.",
           github: "Github",
           demo: "Demo",
         },
         {
           key: "2",
-          imageSrc: pomodoro,
+          imageSrc: todo,
           descriptionContainerStyle:
             "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
           projectName: "Deneme",
+          projectDescription: "Basic to-do app.",
           github: "Github",
           demo: "Demo",
         },
         {
           key: "3",
-          imageSrc: pomodoro,
+          imageSrc: loomGym,
           descriptionContainerStyle:
             "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
           projectName: "Deneme",
+          projectDescription:
+            "Unleash your full potential with our cutting-edge gym equipment and expert trainers. Join us now and see the difference for yourself.",
           github: "Github",
           demo: "Demo",
         },
         {
           key: "4",
-          imageSrc: pomodoro,
+          imageSrc: design1,
           descriptionContainerStyle:
             "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
           projectName: "Deneme",
+          projectDescription:
+            "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
           github: "Github",
           demo: "Demo",
         },
         {
           key: "5",
-          imageSrc: pomodoro,
+          imageSrc: design2,
           descriptionContainerStyle:
             "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
           projectName: "Deneme",
+          projectDescription:
+            "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
           github: "Github",
           demo: "Demo",
         },
@@ -126,10 +139,7 @@ export default {
           </h3>
 
           <ul :class="listItemParagraphStyle" class="text-left">
-            <li>
-              &nbsp;This is a pomodoro app that help you to consantrate to do
-              what you want in a given timespace.
-            </li>
+            <li>&nbsp; {{ item.projectDescription }}</li>
             <br />
             <li>Languages: vue.js, tailwind</li>
             <br />
