@@ -130,6 +130,7 @@ export default {
         <img
           :src="item.imageSrc"
           class="w-96 cursor-pointer transition-all duration-500"
+          style="min-height: 16rem"
           alt=""
         />
         <div class="w-full bg-primary-bg-black px-4 text-center">
