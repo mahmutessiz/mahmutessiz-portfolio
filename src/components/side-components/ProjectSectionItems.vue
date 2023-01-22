@@ -25,7 +25,7 @@ export default {
             "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-          projectName: "Deneme",
+          projectName: "Pomodoro Website",
           projectDescription:
             "This is a pomodoro app that help you to consantrate to do what you want in a given timespace.",
           github: "Github",
@@ -38,7 +38,7 @@ export default {
             "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-          projectName: "Deneme",
+          projectName: "To-do list app",
           projectDescription: "Basic to-do app.",
           github: "Github",
           demo: "Demo",
@@ -50,7 +50,7 @@ export default {
             "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-          projectName: "Deneme",
+          projectName: "Loom GYM website",
           projectDescription:
             "Unleash your full potential with our cutting-edge gym equipment and expert trainers. Join us now and see the difference for yourself.",
           github: "Github",
@@ -63,7 +63,7 @@ export default {
             "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-          projectName: "Deneme",
+          projectName: "A landing page",
           projectDescription:
             "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
           github: "Github",
@@ -76,7 +76,7 @@ export default {
             "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
           projectImgStyle:
             "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-          projectName: "Deneme",
+          projectName: "A landing page",
           projectDescription:
             "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
           github: "Github",
