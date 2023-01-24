@@ -41,14 +41,14 @@ export default {
     <li class="cursor-pointer" @click="change2">
       <img
         class="h-12 hover:scale-110 active:scale-110"
-        src="Extended.png"
+        src="../public/Extended.png"
         alt=""
       />
     </li>
     <li class="cursor-pointer" @click="change1">
       <img
         class="m-1 h-12 hover:scale-110 active:scale-110"
-        src="rect.png"
+        src="../public/rect.png"
         alt=""
       />
     </li>
