@@ -1,7 +1,7 @@
 [
     {
       "key": "1",
-      "imageSrc": "/src/public/pomodoro1.png",
+      "imageSrc": "pomodoro1.png",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
@@ -14,7 +14,7 @@
     },
     {
       "key": "2",
-      "imageSrc": "/src/public/todo.png",
+      "imageSrc": "todo.png",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
@@ -26,7 +26,7 @@
     },
     {
       "key": "3",
-      "imageSrc": "/src/public/loomgym.png",
+      "imageSrc": "loomgym.png",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
@@ -39,7 +39,7 @@
     },
     {
       "key": "4",
-      "imageSrc": "/src/public/design1.png",
+      "imageSrc": "design1.png",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
@@ -52,7 +52,7 @@
     },
     {
       "key": "5",
-      "imageSrc": "/src/public/design2.png",
+      "imageSrc": "design2.png",
      " descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
