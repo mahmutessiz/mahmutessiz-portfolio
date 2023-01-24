@@ -1,7 +1,7 @@
 [
     {
       "key": "1",
-      "imageSrc": "/src/components/images/pomodoro1.png",
+      "imageSrc": "/src/images/pomodoro1.png",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
@@ -14,7 +14,7 @@
     },
     {
       "key": "2",
-      "imageSrc": "/src/components/images/todo.png",
+      "imageSrc": "/src/images/todo.png",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
@@ -26,7 +26,7 @@
     },
     {
       "key": "3",
-      "imageSrc": "/src/components/images/loomgym.png",
+      "imageSrc": "/src/images/loomgym.png",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
@@ -39,7 +39,7 @@
     },
     {
       "key": "4",
-      "imageSrc": "/src/components/images/design1.png",
+      "imageSrc": "/src/images/design1.png",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
@@ -52,7 +52,7 @@
     },
     {
       "key": "5",
-      "imageSrc": "/src/components/images/design2.png",
+      "imageSrc": "/src/images/design2.png",
      " descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":

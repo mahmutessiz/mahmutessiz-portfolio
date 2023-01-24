@@ -15,7 +15,6 @@ export default {
       ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4",
       listItemParagraphStyle: "",
       centeredProjectName: "p-3 text-center text-lg font-bold",
-
     };
   },
   methods: {
