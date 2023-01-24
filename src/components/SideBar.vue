@@ -17,18 +17,18 @@ export default {
     <ul class="flex list-none flex-col">
       <li :class="sideBarItems.listStyles">
         <a href="https://github.com/mahmutessiz">
-          <img src="github.png" alt="Github" />
+          <img src="/github.png" alt="Github" />
         </a>
       </li>
       <li :class="sideBarItems.listStyles">
         <a href="https://www.linkedin.com/in/mahmut-e%C5%9Fsiz-b1b8a8185/"
-          ><img src="linkedin.png" alt="linkedin" />
+          ><img src="/linkedin.png" alt="linkedin" />
         </a>
       </li>
 
       <li :class="sideBarItems.listStyles">
         <a href="mailto:mahmutessiz72@gmail.com"
-          ><img src="email.png" alt="e-mail"
+          ><img src="/email.png" alt="e-mail"
         /></a>
       </li>
     </ul>
