@@ -14,7 +14,7 @@
     },
     {
       "key": "2",
-      "imageSrc": "../components/images/todo.png",
+      "imageSrc": "../images/todo.png",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
