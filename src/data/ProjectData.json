@@ -1,7 +1,7 @@
 [
     {
       "key": "1",
-      "imageSrc": "pomodoro1.png",
+      "imageSrc":"pomodoro",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":

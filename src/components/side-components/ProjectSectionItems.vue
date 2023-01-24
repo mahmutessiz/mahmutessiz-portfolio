@@ -1,10 +1,79 @@
 <script>
-import ProjectData from "@/data/ProjectData.json";
+import pomodoro from "@/public/pomodoro1.png";
+import todo from "@/public/todo.png";
+import design1 from "@/public/design1.png";
+import loomgym from "@/public/loomgym.png";
+import design2 from "@/public/design2.png";
 
 export default {
   data() {
     return {
-      projectData: ProjectData,
+      projectData: [
+        {
+          key: "1",
+          imageSrc: pomodoro,
+          descriptionContainerStyle:
+            "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+          projectImgStyle:
+            "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+          projectName: "Pomodoro Website",
+          projectDescription:
+            "This is a pomodoro app that help you to consantrate to do what you want in a given timespace.",
+          github: "Github",
+          demo: "Demo",
+        },
+        {
+          key: "2",
+          imageSrc: todo,
+          descriptionContainerStyle:
+            "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+          projectImgStyle:
+            "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+          projectName: "To-do list app",
+          projectDescription: "Basic to-do app.",
+          github: "Github",
+          demo: "Demo",
+        },
+        {
+          key: "3",
+          imageSrc: loomgym,
+          descriptionContainerStyle:
+            "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+          projectImgStyle:
+            "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+          projectName: "Loom GYM website",
+          projectDescription:
+            "Unleash your full potential with our cutting-edge gym equipment and expert trainers. Join us now and see the difference for yourself.",
+          github: "Github",
+          demo: "Demo",
+        },
+        {
+          key: "4",
+          imageSrc: design1,
+          descriptionContainerStyle:
+            "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+          projectImgStyle:
+            "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+          projectName: "A landing page",
+          projectDescription:
+            "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
+          github: "Github",
+          demo: "Demo",
+        },
+        {
+          key: "5",
+          imageSrc: design2,
+          descriptionContainerStyle:
+            "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+          projectImgStyle:
+            "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+          projectName: "A landing page",
+          projectDescription:
+            "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
+          github: "Github",
+          demo: "Demo",
+        },
+      ],
 
       lastStyle:
         "w-96 border border-solid border-primary-text-thistle text-primary-text-thistle md:w-full md:flex md:gap-4 md:rounded-lg overflow-hidden",
