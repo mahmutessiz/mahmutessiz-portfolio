@@ -10,6 +10,9 @@ module.exports = {
         "primary-text-thistle": "#e6c3c3",
         "secondary-text-silver": "#bbbbc2",
       },
+      height: {
+        128: "32rem",
+      },
     },
   },
   plugins: [],

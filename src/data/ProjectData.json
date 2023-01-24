@@ -1,7 +1,7 @@
 [
     {
       "key": "1",
-      "imageSrc":"pomodoro",
+      "imageSrc": "pomodoro",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
@@ -14,7 +14,7 @@
     },
     {
       "key": "2",
-      "imageSrc": "todo.png",
+      "imageSrc": "todo",
       "descriptionContainerStyle":
         "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
       "projectImgStyle":
