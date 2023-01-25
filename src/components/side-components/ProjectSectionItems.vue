@@ -127,10 +127,15 @@ export default {
 
   <div class="relative box-border w-3/4 px-4">
     <ul :class="ulItemOrderStyle">
-      <li :class="lastStyle"  class="" v-for="data in projectData" :key="data.key">
+      <li
+        :class="lastStyle"
+        class=""
+        v-for="data in projectData"
+        :key="data.key"
+      >
         <img
           :src="data.imageSrc"
-          class="w-96 cursor-pointer transition-all duration-500"
+          class="w-96 cursor-pointer object-cover transition-all duration-500"
           style="min-height: 16rem"
           alt=""
         />
