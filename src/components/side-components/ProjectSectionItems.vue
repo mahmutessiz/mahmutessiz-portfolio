@@ -134,7 +134,9 @@ export default {
         :key="data.key"
       >
         <!-- xxxxxxxxx GET İMAGES FROM A LİNK xxxxxxxxxx  -->
-        <div class="grid aspect-video place-items-center px-2 pt-1 max-w-screen-sm">
+        <div
+          class="grid aspect-video max-w-screen-sm place-items-center px-2 pt-1"
+        >
           <img
             :src="data.imageSrc"
             class="cursor-pointer object-cover transition-all duration-500"
