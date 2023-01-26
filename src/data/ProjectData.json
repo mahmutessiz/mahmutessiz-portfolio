@@ -1,66 +1,52 @@
 [
-    {
-      "key": "1",
-      "imageSrc": "pomodoro",
-      "descriptionContainerStyle":
-        "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-      "projectImgStyle":
-        "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-      "projectName": "Pomodoro Website",
-      "projectDescription":
-        "This is a pomodoro app that help you to consantrate to do what you want in a given timespace.",
-      "github": "Github",
-      "demo": "Demo"
-    },
-    {
-      "key": "2",
-      "imageSrc": "todo",
-      "descriptionContainerStyle":
-        "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-      "projectImgStyle":
-        "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-      "projectName": "To-do list app",
-      "projectDescription": "Basic to-do app.",
-      "github": "Github",
-      "demo": "Demo"
-    },
-    {
-      "key": "3",
-      "imageSrc": "loomgym.png",
-      "descriptionContainerStyle":
-        "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-      "projectImgStyle":
-        "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-      "projectName": "Loom GYM website",
-      "projectDescription":
-        "Unleash your full potential with our cutting-edge gym equipment and expert trainers. Join us now and see the difference for yourself.",
-      "github": "Github",
-      "demo": "Demo"
-    },
-    {
-      "key": "4",
-      "imageSrc": "design1.png",
-      "descriptionContainerStyle":
-        "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-      "projectImgStyle":
-        "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-      "projectName": "A landing page",
-      "projectDescription":
-        "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
-      "github": "Github",
-     "demo": "Demo"
-    },
-    {
-      "key": "5",
-      "imageSrc": "design2.png",
-     " descriptionContainerStyle":
-        "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-      "projectImgStyle":
-        "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-      "projectName": "A landing page",
-      "projectDescription":
-        "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
-      "github": "Github",
-      "demo": "Demo"
-    }
-  ]
+  {
+    "key": "1",
+    "imageSrc": "https://i.pinimg.com/originals/fb/62/e9/fb62e9480c70e3ff0df9be11cdf337aa.jpg",
+    "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+    "projectName": "Pomodoro Website",
+    "projectDescription": "This is a pomodoro app that help you to consantrate to do what you want in a given timespace.",
+    "github": "Github",
+    "demo": "Demo"
+  },
+  {
+    "key": "2",
+    "imageSrc": "todo",
+    "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+    "projectName": "To-do list app",
+    "projectDescription": "Basic to-do app.",
+    "github": "Github",
+    "demo": "Demo"
+  },
+  {
+    "key": "3",
+    "imageSrc": "loomgym.png",
+    "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+    "projectName": "Loom GYM website",
+    "projectDescription": "Unleash your full potential with our cutting-edge gym equipment and expert trainers. Join us now and see the difference for yourself.",
+    "github": "Github",
+    "demo": "Demo"
+  },
+  {
+    "key": "4",
+    "imageSrc": "design1.png",
+    "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+    "projectName": "A landing page",
+    "projectDescription": "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
+    "github": "Github",
+    "demo": "Demo"
+  },
+  {
+    "key": "5",
+    "imageSrc": "design2.png",
+    " descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+    "projectName": "A landing page",
+    "projectDescription": "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
+    "github": "Github",
+    "demo": "Demo"
+  }
+]

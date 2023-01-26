@@ -2,7 +2,7 @@
 import pomodoro from "@/public/pomodoro1.png";
 import todo from "@/public/todo.png";
 import design1 from "@/public/design1.png";
-import loomgym from "@/public/loomgym.png";
+import loomgym from "@/public/loomgym-mini-poster.png";
 import design2 from "@/public/design2.png";
 
 export default {
@@ -76,7 +76,7 @@ export default {
       ],
 
       lastStyle:
-        "w-96 border border-solid border-primary-text-thistle text-primary-text-thistle md:w-full md:flex md:gap-4 md:rounded-lg overflow-hidden",
+        "w-96 border border-solid rounded sm:mt-8 border-primary-text-thistle text-primary-text-thistle md:w-full md:flex md:gap-4 md:rounded-lg overflow-hidden",
       itemStyle:
         "w-96 border border-solid border-primary-text-thistle text-primary-text-thistle md:rounded-lg overflow-hidden h-128",
       itemStyle2:
@@ -133,12 +133,16 @@ export default {
         v-for="data in projectData"
         :key="data.key"
       >
-        <img
-          :src="data.imageSrc"
-          class="w-96 cursor-pointer object-cover transition-all duration-500"
-          style="min-height: 16rem"
-          alt=""
-        />
+        <!-- xxxxxxxxx GET İMAGES FROM A LİNK xxxxxxxxxx  -->
+        <div class="grid aspect-video place-items-center px-2 pt-1 max-w-screen-sm">
+          <img
+            :src="data.imageSrc"
+            class="cursor-pointer object-cover transition-all duration-500"
+            style="min-height: 16rem"
+            alt=""
+          />
+        </div>
+
         <div class="w-full bg-primary-bg-black px-4 text-center">
           <h3 :class="centeredProjectName">
             {{ data.projectName }}
