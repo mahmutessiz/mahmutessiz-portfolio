@@ -1,80 +1,10 @@
 <script>
-import pomodoro from "@/public/pomodoro1.png";
-import todo from "@/public/todo.png";
-import design1 from "@/public/design1.png";
-import loomgym from "@/public/loomgym-mini-poster.png";
-import design2 from "@/public/design2.png";
+import projectData from "@/data/ProjectData.json";
 
 export default {
   data() {
     return {
-      projectData: [
-        {
-          key: "1",
-          imageSrc: pomodoro,
-          descriptionContainerStyle:
-            "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-          projectImgStyle:
-            "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-          projectName: "Pomodoro Website",
-          projectDescription:
-            "This is a pomodoro app that help you to consantrate to do what you want in a given timespace.",
-          github: "Github",
-          demo: "Demo",
-        },
-        {
-          key: "2",
-          imageSrc: todo,
-          descriptionContainerStyle:
-            "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-          projectImgStyle:
-            "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-          projectName: "To-do list app",
-          projectDescription: "Basic to-do app.",
-          github: "Github",
-          demo: "Demo",
-        },
-        {
-          key: "3",
-          imageSrc: loomgym,
-          descriptionContainerStyle:
-            "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-          projectImgStyle:
-            "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-          projectName: "Loom GYM website",
-          projectDescription:
-            "Unleash your full potential with our cutting-edge gym equipment and expert trainers. Join us now and see the difference for yourself.",
-          github: "Github",
-          demo: "Demo",
-        },
-        {
-          key: "4",
-          imageSrc: design1,
-          descriptionContainerStyle:
-            "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-          projectImgStyle:
-            "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-          projectName: "A landing page",
-          projectDescription:
-            "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
-          github: "Github",
-          demo: "Demo",
-        },
-        {
-          key: "5",
-          imageSrc: design2,
-          descriptionContainerStyle:
-            "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-          projectImgStyle:
-            "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-          projectName: "A landing page",
-          projectDescription:
-            "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
-          github: "Github",
-          demo: "Demo",
-        },
-      ],
-
+      projectData,
       lastStyle:
         "w-96 border border-solid rounded sm:mt-8 border-primary-text-thistle text-primary-text-thistle md:w-full md:flex md:gap-4 md:rounded-lg overflow-hidden",
       itemStyle:
@@ -134,9 +64,7 @@ export default {
         :key="data.key"
       >
         <!-- xxxxxxxxx GET İMAGES FROM A LİNK xxxxxxxxxx  -->
-        <div
-          class="grid aspect-video max-w-screen-sm place-items-center px-2 pt-1"
-        >
+        <div class="grid aspect-video max-w-sm place-items-center">
           <img
             :src="data.imageSrc"
             class="cursor-pointer object-cover transition-all duration-500"
@@ -145,7 +73,7 @@ export default {
           />
         </div>
 
-        <div class="w-full bg-primary-bg-black px-4 text-center">
+        <div class="w-full bg-primary-bg-black px-2 text-center">
           <h3 :class="centeredProjectName">
             {{ data.projectName }}
             <hr />

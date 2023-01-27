@@ -1,7 +1,7 @@
 [
   {
     "key": "1",
-    "imageSrc": "https://i.pinimg.com/originals/fb/62/e9/fb62e9480c70e3ff0df9be11cdf337aa.jpg",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811676/images/pomodoro-minified_mypvxx.png",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
     "projectName": "Pomodoro Website",
@@ -11,7 +11,7 @@
   },
   {
     "key": "2",
-    "imageSrc": "todo",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811676/images/todo-bg_yhpapf.png",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
     "projectName": "To-do list app",
@@ -21,7 +21,7 @@
   },
   {
     "key": "3",
-    "imageSrc": "loomgym.png",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811686/images/loomgym-mini-poster_bktkaj.png",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
     "projectName": "Loom GYM website",
@@ -31,7 +31,7 @@
   },
   {
     "key": "4",
-    "imageSrc": "design1.png",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811677/images/landing-page-arcitech_mnbaq6.png",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
     "projectName": "A landing page",
@@ -41,7 +41,7 @@
   },
   {
     "key": "5",
-    "imageSrc": "design2.png",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811675/images/landing-page-mrBeen_f2psdg.png",
     " descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
     "projectName": "A landing page",
