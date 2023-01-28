@@ -73,13 +73,13 @@ export default {
           />
         </div>
 
-        <div class="w-full bg-primary-bg-black px-2 text-center">
+        <div class="flex w-full flex-col items-center bg-primary-bg-black">
           <h3 :class="centeredProjectName">
             {{ data.projectName }}
             <hr />
           </h3>
 
-          <ul :class="listItemParagraphStyle" class="text-left">
+          <ul :class="listItemParagraphStyle" class="w-3/4 text-left">
             <li>&nbsp; {{ data.projectDescription }}</li>
             <br />
             <li>Languages: vue.js, tailwind</li>
