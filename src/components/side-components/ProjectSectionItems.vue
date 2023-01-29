@@ -1,7 +1,11 @@
 <script>
 import projectData from "@/data/ProjectData.json";
+import imagePopupSlider from "@/components/side-components/ImagePopupSlider.vue";
 
 export default {
+  components: {
+    imagePopupSlider,
+  },
   data() {
     return {
       projectData,
@@ -34,6 +38,10 @@ export default {
 </script>
 
 <template>
+  <!-- xxxxxxxxxxxxxx  SLİDER xxxxxxxxxxxxxx -->
+
+  <imagePopupSlider />
+
   <!-- xxxxxxxxxxx  BUTTONS xxxxxxxxxxxxx -->
 
   <ul class="mt-8 hidden items-end justify-end gap-4 p-6 md:mt-4 md:flex">

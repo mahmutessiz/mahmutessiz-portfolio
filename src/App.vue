@@ -5,6 +5,7 @@ import SideBar from "./components/SideBar.vue";
 import ProjectSection from "./components/ProjectSection.vue";
 import FooterSection from "./components/FooterSection.vue";
 import ContactSection from "./components/ContactSection.vue";
+
 export default {
   components: {
     MainMenu,
