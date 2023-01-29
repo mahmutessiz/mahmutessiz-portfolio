@@ -10,6 +10,7 @@ export default {
 <template>
   <section
     class="flex flex-col items-center justify-center bg-primary-bg-black pb-8 pt-24"
+    id="project"
   >
     <div class="flex w-1/2 flex-col items-center justify-center">
       <h2 class="text-3xl font-bold text-primary-text-thistle">Projects</h2>

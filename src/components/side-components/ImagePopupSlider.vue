@@ -32,7 +32,7 @@
         </li>
       </ul>
       <div>
-        <form action="/action_page.php">
+        <form action="#">
           <input type="radio" name="1" />
           <input type="radio" name="1" />
           <input type="radio" name="1" />

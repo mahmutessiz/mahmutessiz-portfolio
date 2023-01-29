@@ -63,19 +63,14 @@ export default {
 
   <!-- xxxxxxxxxxxx  ITEMS xxxxxxxxxxxx -->
 
-  <div class="relative box-border w-3/4 px-4">
+  <div class="relative box-border w-11/12 px-4 md:w-3/4">
     <ul :class="ulItemOrderStyle">
-      <li
-        :class="lastStyle"
-        class=""
-        v-for="data in projectData"
-        :key="data.key"
-      >
+      <li :class="lastStyle" v-for="data in projectData" :key="data.key">
         <!-- xxxxxxxxx GET İMAGES FROM A LİNK xxxxxxxxxx  -->
         <div class="grid aspect-video max-w-sm place-items-center">
           <img
             :src="data.imageSrc"
-            class="cursor-pointer object-cover transition-all duration-500"
+            class="cursor-pointer object-cover transition-all duration-500 md:p-2"
             style="min-height: 16rem"
             alt=""
           />
