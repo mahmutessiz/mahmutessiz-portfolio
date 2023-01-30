@@ -1,6 +1,6 @@
 [
   {
-    "key": "1",
+    "key": "0",
     "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811676/images/pomodoro-minified_mypvxx.png",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
@@ -10,7 +10,7 @@
     "demo": "Demo"
   },
   {
-    "key": "2",
+    "key": "1",
     "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811676/images/todo-bg_yhpapf.png",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
@@ -20,7 +20,7 @@
     "demo": "Demo"
   },
   {
-    "key": "3",
+    "key": "2",
     "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811686/images/loomgym-mini-poster_bktkaj.png",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
@@ -30,7 +30,7 @@
     "demo": "Demo"
   },
   {
-    "key": "4",
+    "key": "3",
     "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811677/images/landing-page-arcitech_mnbaq6.png",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
@@ -40,7 +40,7 @@
     "demo": "Demo"
   },
   {
-    "key": "5",
+    "key": "4",
     "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811675/images/landing-page-mrBeen_f2psdg.png",
     " descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",

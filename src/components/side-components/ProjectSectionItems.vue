@@ -30,6 +30,14 @@ export default {
       this.listItemParagraphStyle = "list-disc px-2";
       this.centeredProjectName = "p-3 text-center text-lg font-bold";
     },
+    /* xxxxxxxx burada liste kendi konumunu buluyor xxxxxxxxxxxx */
+    deneme(event) {
+      const ul = document.querySelectorAll("#deneme");
+
+      console.log(event.target.src);
+      console.log(event.target.id);
+      console.log(event.target.alt);
+    },
   },
   created() {
     this.listItemParagraphStyle = "md:list-disc px-2";
@@ -68,11 +76,14 @@ export default {
       <li :class="lastStyle" v-for="data in projectData" :key="data.key">
         <!-- xxxxxxxxx GET İMAGES FROM A LİNK xxxxxxxxxx  -->
         <div class="grid aspect-video max-w-sm place-items-center">
+          <!-- xxxxxxxxxxx konsola bak alt ile sırasını bulabiliyorum resmin xxxxxxxxxx -->
           <img
             :src="data.imageSrc"
+            id="deneme"
+            @click="deneme"
             class="cursor-pointer object-cover transition-all duration-500 md:p-2"
             style="min-height: 16rem"
-            alt=""
+            :alt="data.key"
           />
         </div>
 
