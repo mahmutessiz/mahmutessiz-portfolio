@@ -48,7 +48,7 @@ export default {
 <template>
   <!-- xxxxxxxxxxxxxx  SLİDER xxxxxxxxxxxxxx -->
 
-  <imagePopupSlider />
+  <imagePopupSlider :bool="true" />
 
   <!-- xxxxxxxxxxx  BUTTONS xxxxxxxxxxxxx -->
 
