@@ -36,6 +36,7 @@ export default {
             class="translate w-2/4 transition-all duration-500 ease-in"
             alt=""
             id="image"
+            :props="ata"
             :class="imgStyles"
             v-for="ata in imgData"
             :key="ata"
