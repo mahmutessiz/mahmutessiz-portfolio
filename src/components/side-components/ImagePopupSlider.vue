@@ -1,72 +1,62 @@
 <script>
-import SliderData from "../../data/SliderData.json";
 export default {
-  data() {
-    return {
-      imgStyles: "",
-      imgData: SliderData[1],
-      number: 50,
-    };
-  },
-
   /* xxxxxxxxx props are readonly xxxxxxxx */
   props: {
-    bool: {
-      type: Boolean,
+    imgSliderData: {
       required: false,
-      default: true,
+    },
+    displayState: {
+      type: String,
+      required: false,
     },
   },
   methods: {
-    changeImg() {
-      console.log(this.imgData);
-      console.log(this.imageDataRender);
-    },
-
     /* bu fonksiyonun benzerini parent component ile yapmam gerekecek.
      propsları buradan sadece okuyabiliyorsam,
       paren component'den data atayıp oradan değerleri değiştirmeyi deneyebilirim. */
-    deneme() {
-      if (this.bool == true) {
-        this.imgData = SliderData[0];
-        this.bool == false;
-      } else if (this.bool == false) {
-        this.imgData = SliderData[1];
-        this.bool == true;
-      } else {
-        console.log(this.bool.value);
+    deleteFunction() {
+      console.log(this.displayState);
+      let deletingContainerDiv = document.getElementById("bigdiv");
+      let deletingContainerDiv2 = document.getElementById("closeDiv");
+
+      if (this.displayState == "fixed") {
+        deletingContainerDiv.classList.remove(this.displayState);
+        deletingContainerDiv.classList.add("hidden");
+
+        deletingContainerDiv2.classList.remove(this.displayState);
+        deletingContainerDiv2.classList.add("hidden");
       }
-      console.log(this.bool);
     },
   },
 };
 </script>
 <template>
   <!-- use position: fixed  -->
-  <div class="hidden bottom-0 left-0 right-0 top-0 z-50 w-full bg-slate-300">
+  <div
+    :class="displayState"
+    class="bottom-0 left-0 right-0 top-0 z-30 w-full overflow-hidden"
+    id="bigdiv"
+  >
+    <div
+      :class="displayState"
+      class="top-0 bottom-0 right-0 left-0 z-40 bg-black bg-opacity-70 text-center"
+      @click="deleteFunction"
+      id="closeDiv"
+    ></div>
     <div class="grid h-screen w-full flex-col place-items-center gap-4">
       <ul>
         <li
-          class="flex w-full flex-row flex-nowrap items-center justify-center gap-4 overflow-hidden border border-black"
+          class="flex w-full flex-wrap items-center justify-center gap-4 overflow-hidden py-9"
         >
           <img
             :src="ata.container"
-            class="w-2/4 transition-all duration-500 ease-in"
+            class="z-50 my-4 w-1/3 shadow-lg shadow-black transition-all duration-100 ease-in hover:scale-110"
             alt=""
-            id="image"
-            :class="imgStyles"
-            v-for="ata in imgData"
+            v-for="ata in imgSliderData"
             :key="ata"
           />
         </li>
       </ul>
-
-      <br />
-      <form action="#">
-        <button @click="deneme">{{ bool }} tıkla</button>
-        <input type="radio" name="1" @click="changeImg" />
-        <input type="radio" name="1" @click="changeImg" />
-      </form>
     </div>
   </div>
 </template>

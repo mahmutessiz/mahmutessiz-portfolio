@@ -16,6 +16,7 @@ export default {
       <h2 class="text-3xl font-bold text-primary-text-thistle">Projects</h2>
       <div class="w-2/3 border-b"></div>
     </div>
+    <br />
     <ProjectSectionItems />
   </section>
 </template>

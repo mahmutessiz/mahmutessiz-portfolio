@@ -2,6 +2,8 @@
 import projectData from "@/data/ProjectData.json";
 import imagePopupSlider from "@/components/side-components/ImagePopupSlider.vue";
 
+import SliderData from "../../data/SliderData.json";
+
 export default {
   components: {
     imagePopupSlider,
@@ -18,6 +20,15 @@ export default {
       ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4",
       listItemParagraphStyle: "",
       centeredProjectName: "p-3 text-center text-lg font-bold",
+
+      /* xxxxxxx data for imagePopupSlider xxxxxxxx */
+
+      imagePopupSliderData: {
+        project1: SliderData[0],
+        sliderDisplayState: "hidden",
+      },
+      bool: true,
+      /* xxxxxxx end of data for imagePopupSlider xxxxxxxx */
     };
   },
   methods: {
@@ -31,12 +42,37 @@ export default {
       this.centeredProjectName = "p-3 text-center text-lg font-bold";
     },
     /* xxxxxxxx burada liste kendi konumunu buluyor xxxxxxxxxxxx */
-    deneme(event) {
-      const ul = document.querySelectorAll("#deneme");
-
-      console.log(event.target.src);
+    imagesGalery(event) {
       console.log(event.target.id);
       console.log(event.target.alt);
+      console.log(this.bool);
+
+      if (event.target.alt == 0 && this.bool == true) {
+        this.imagePopupSliderData.project1 = SliderData[0];
+        this.imagePopupSliderData.sliderDisplayState = "fixed";
+
+        this.bool = false;
+      } else {
+        this.imagePopupSliderData.sliderDisplayState = "hidden";
+        this.bool = true;
+      }
+
+      if (event.target.alt == 1) {
+        this.imagePopupSliderData.project1 = SliderData[1];
+        this.imagePopupSliderData.sliderDisplayState = "fixed";
+      }
+      if (event.target.alt == 2) {
+        this.imagePopupSliderData.project1 = SliderData[2];
+        this.imagePopupSliderData.sliderDisplayState = "fixed";
+      }
+      if (event.target.alt == 3) {
+        this.imagePopupSliderData.project1 = SliderData[3];
+        this.imagePopupSliderData.sliderDisplayState = "fixed";
+      }
+      if (event.target.alt == 4) {
+        this.imagePopupSliderData.project1 = SliderData[4];
+        this.imagePopupSliderData.sliderDisplayState = "fixed";
+      }
     },
   },
   created() {
@@ -48,7 +84,10 @@ export default {
 <template>
   <!-- xxxxxxxxxxxxxx  SLİDER xxxxxxxxxxxxxx -->
 
-  <imagePopupSlider :bool="true" />
+  <imagePopupSlider
+    :imgSliderData="imagePopupSliderData.project1"
+    :displayState="imagePopupSliderData.sliderDisplayState"
+  />
 
   <!-- xxxxxxxxxxx  BUTTONS xxxxxxxxxxxxx -->
 
@@ -80,7 +119,7 @@ export default {
           <img
             :src="data.imageSrc"
             id="deneme"
-            @click="deneme"
+            @click="imagesGalery"
             class="cursor-pointer object-cover transition-all duration-500 md:p-2"
             style="min-height: 16rem"
             :alt="data.key"
