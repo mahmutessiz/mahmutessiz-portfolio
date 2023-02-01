@@ -47,14 +47,9 @@ export default {
       console.log(event.target.alt);
       console.log(this.bool);
 
-      if (event.target.alt == 0 && this.bool == true) {
+      if (event.target.alt == 0) {
         this.imagePopupSliderData.project1 = SliderData[0];
         this.imagePopupSliderData.sliderDisplayState = "fixed";
-
-        this.bool = false;
-      } else {
-        this.imagePopupSliderData.sliderDisplayState = "hidden";
-        this.bool = true;
       }
 
       if (event.target.alt == 1) {
@@ -74,6 +69,9 @@ export default {
         this.imagePopupSliderData.sliderDisplayState = "fixed";
       }
     },
+    deleteFunction() {
+      this.imagePopupSliderData.sliderDisplayState = "hidden";
+    },
   },
   created() {
     this.listItemParagraphStyle = "md:list-disc px-2";
@@ -82,14 +80,20 @@ export default {
 </script>
 
 <template>
-  <!-- xxxxxxxxxxxxxx  SLİDER xxxxxxxxxxxxxx -->
+  <!-- xxxxxxxxxxxxxx  Images collage xxxxxxxxxxxxxx -->
 
+  <div
+    :class="imagePopupSliderData.sliderDisplayState"
+    class="top-0 bottom-0 right-0 left-0 z-20 bg-black bg-opacity-70 text-center backdrop-blur-sm"
+    @click="deleteFunction"
+    id="closeDiv"
+  ></div>
   <imagePopupSlider
     :imgSliderData="imagePopupSliderData.project1"
     :displayState="imagePopupSliderData.sliderDisplayState"
   />
 
-  <!-- xxxxxxxxxxx  BUTTONS xxxxxxxxxxxxx -->
+  <!-- xxxxxxxxxxxxxx end of Images collage & start of buttons section xxxxxxxxxxxxxx -->
 
   <ul class="mt-8 hidden items-end justify-end gap-4 p-6 md:mt-4 md:flex">
     <li class="cursor-pointer" @click="change2">
