@@ -19,7 +19,8 @@ export default {
         "w-full flex gap-4 border border-primary-text-thistle rounded text-primary-text-thistle md:rounded-lg overflow-hidden",
       ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4",
       listItemParagraphStyle: "",
-      centeredProjectName: "p-3 text-center text-lg font-bold",
+      centeredProjectName:
+        "p-3 text-center text-lg font-bold text-primary-text-thistle",
 
       /* xxxxxxx data for imagePopupSlider xxxxxxxx */
 
@@ -129,18 +130,29 @@ export default {
         <div class="flex w-full flex-col items-center bg-primary-bg-black">
           <h3 :class="centeredProjectName">
             {{ data.projectName }}
-            <hr />
           </h3>
 
-          <ul :class="listItemParagraphStyle" class="w-3/4 text-left">
+          <ul
+            :class="listItemParagraphStyle"
+            class="w-3/4 text-left text-secondary-text-silver"
+          >
             <li>&nbsp; {{ data.projectDescription }}</li>
             <br />
             <li>Languages: vue.js, tailwind</li>
             <br />
             <li>
               Links:
-              <a href="github.com" class="text-blue-400">{{ data.github }}</a> ,
-              <a href="demo.co" class="text-blue-400">{{ data.demo }}</a>
+              <a
+                href="github.com"
+                class="text-sm text-primary-text-thistle underline"
+                >{{ data.github }}</a
+              >
+              ,
+              <a
+                href="demo.co"
+                class="text-sm text-primary-text-thistle underline"
+                >{{ data.demo }}</a
+              >
             </li>
             <br />
           </ul>
