@@ -27,7 +27,6 @@ export default {
         project1: SliderData[0],
         sliderDisplayState: "hidden",
       },
-      bool: true,
       /* xxxxxxx end of data for imagePopupSlider xxxxxxxx */
     };
   },
@@ -44,27 +43,25 @@ export default {
     /* xxxxxxxx burada liste kendi konumunu buluyor xxxxxxxxxxxx */
     imagesGalery(event) {
       console.log(event.target.id);
-      console.log(event.target.alt);
-      console.log(this.bool);
 
-      if (event.target.alt == 0) {
+      if (event.target.id == 0) {
         this.imagePopupSliderData.project1 = SliderData[0];
         this.imagePopupSliderData.sliderDisplayState = "fixed";
       }
 
-      if (event.target.alt == 1) {
+      if (event.target.id == 1) {
         this.imagePopupSliderData.project1 = SliderData[1];
         this.imagePopupSliderData.sliderDisplayState = "fixed";
       }
-      if (event.target.alt == 2) {
+      if (event.target.id == 2) {
         this.imagePopupSliderData.project1 = SliderData[2];
         this.imagePopupSliderData.sliderDisplayState = "fixed";
       }
-      if (event.target.alt == 3) {
+      if (event.target.id == 3) {
         this.imagePopupSliderData.project1 = SliderData[3];
         this.imagePopupSliderData.sliderDisplayState = "fixed";
       }
-      if (event.target.alt == 4) {
+      if (event.target.id == 4) {
         this.imagePopupSliderData.project1 = SliderData[4];
         this.imagePopupSliderData.sliderDisplayState = "fixed";
       }
@@ -122,11 +119,10 @@ export default {
           <!-- xxxxxxxxxxx konsola bak alt ile sırasını bulabiliyorum resmin xxxxxxxxxx -->
           <img
             :src="data.imageSrc"
-            id="deneme"
             @click="imagesGalery"
-            class="cursor-pointer object-cover transition-all duration-500 md:p-2"
+            class="aspect-video cursor-pointer transition-all duration-500 md:p-2"
             style="min-height: 16rem"
-            :alt="data.key"
+            :id="data.key"
           />
         </div>
 
