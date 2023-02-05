@@ -1,7 +1,7 @@
 [
   {
     "key": "0",
-    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811676/images/pomodoro-minified_mypvxx.png",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604688/imageswebp/pomodoro-minified_xizpff.webp",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
     "projectName": "Pomodoro Website",
@@ -11,7 +11,7 @@
   },
   {
     "key": "1",
-    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811676/images/todo-bg_yhpapf.png",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604688/imageswebp/todo-bg_ardkwu.webp",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
     "projectName": "To-do list app",
@@ -41,7 +41,7 @@
   },
   {
     "key": "4",
-    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811675/images/landing-page-mrBeen_f2psdg.png",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604690/imageswebp/landing-page-mrBeen_emugj1.webp",
     " descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
     "projectName": "A landing page",
