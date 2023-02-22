@@ -143,13 +143,15 @@ export default {
             <li>
               Links:
               <a
-                href="github.com"
+                :href="data.linkGithub"
+                target="_blank"
                 class="text-sm text-primary-text-thistle underline"
                 >{{ data.github }}</a
               >
               ,
               <a
-                href="demo.co"
+                :href="data.linkDemo"
+                target="_blank"
                 class="text-sm text-primary-text-thistle underline"
                 >{{ data.demo }}</a
               >
