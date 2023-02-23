@@ -43,8 +43,6 @@ export default {
     },
     /* xxxxxxxx burada liste kendi konumunu buluyor xxxxxxxxxxxx */
     imagesGalery(event) {
-      /* console.log(event.target.id); */
-
       if (event.target.id == 0) {
         this.imagePopupSliderData.project1 = SliderData[0];
         this.imagePopupSliderData.sliderDisplayState = "fixed";
