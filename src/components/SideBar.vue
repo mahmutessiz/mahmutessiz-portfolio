@@ -5,15 +5,52 @@ export default {
       sideBarItems: {
         listStyles: "my-4 cursor-pointer transition-transform hover:rotate-12",
         asideStyles:
-          "fixed mt-40 ml-4 flex w-14 items-center justify-center rounded-2xl bg-primary-bg-black py-10 px-2 shadow-lg shadow-black",
+          "fixed top-44 left-4 flex w-14 items-center justify-center rounded-2xl bg-primary-bg-black py-10 px-2 shadow-lg shadow-black z-50",
+        rotation: true,
       },
     };
+  },
+  methods: {
+    openSidebar() {
+      const element = document.querySelector("#openButton");
+      const element2 = document.querySelector("#closeButton");
+      element.classList.add("hidden");
+      element2.classList.remove("hidden");
+
+      const aside = document.querySelector("aside");
+      aside.classList.remove("hidden");
+    },
+    closeSidebar() {
+      const element = document.querySelector("#openButton");
+      const element2 = document.querySelector("#closeButton");
+      element2.classList.add("hidden");
+      element.classList.remove("hidden");
+
+      const aside = document.querySelector("aside");
+      aside.classList.add("hidden");
+    },
   },
 };
 </script>
 
 <template>
-  <aside :class="sideBarItems.asideStyles">
+  <button
+    id="openButton"
+    class="fixed top-28 left-4 z-50 w-fit rounded-full bg-primary-text-thistle px-4 py-2 text-lg opacity-60 sm:hidden"
+    @click="openSidebar"
+  >
+    &#9776;
+  </button>
+
+  <button
+    id="closeButton"
+    class="fixed top-28 left-4 z-50 hidden w-fit rotate-90 rounded-full bg-primary-text-thistle px-4 py-2 text-lg opacity-60 sm:hidden"
+    @click="closeSidebar"
+  >
+    &#9776;
+  </button>
+
+  <aside :class="sideBarItems.asideStyles" class="hidden sm:block">
     <ul class="flex list-none flex-col">
       <li :class="sideBarItems.listStyles">
         <a href="https://github.com/mahmutessiz">
