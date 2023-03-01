@@ -134,7 +134,7 @@ export default {
             :class="listItemParagraphStyle"
             class="w-3/4 text-left text-secondary-text-silver"
           >
-            <li>&nbsp; {{ data.projectDescription }}</li>
+            <li>{{ data.projectDescription }}</li>
             <br />
             <li>Languages: vue.js, tailwind</li>
             <br />
