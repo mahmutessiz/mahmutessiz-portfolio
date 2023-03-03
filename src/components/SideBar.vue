@@ -19,7 +19,6 @@ export default {
 
         this.rotation = false;
       } else {
-
         event.target.classList.remove("rotate-90");
 
         const aside = document.querySelector("aside");
@@ -34,7 +33,7 @@ export default {
 <template>
   <button
     id="openButton"
-    class="fixed top-28 left-4 z-50 w-fit rounded-full bg-primary-text-thistle px-4 py-2 text-lg opacity-60 sm:hidden"
+    class="fixed top-28 left-4 z-50 w-fit rounded-full bg-primary-text-thistle px-4 py-2 text-lg opacity-60 transition-all duration-300 sm:hidden"
     @click="openCloseSidebar"
   >
     &#9776;
