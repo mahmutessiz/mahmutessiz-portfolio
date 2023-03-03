@@ -19,7 +19,8 @@ export default {
 
         this.rotation = false;
       } else {
-        event.target.classList.add("rotate-90");
+
+        event.target.classList.remove("rotate-90");
 
         const aside = document.querySelector("aside");
         aside.classList.add("hidden");
