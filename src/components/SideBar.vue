@@ -12,13 +12,6 @@ export default {
   },
   methods: {
     openCloseSidebar(event) {
-      /*    const element = document.querySelector("#openButton");
-      const element2 = document.querySelector("#closeButton");
-      element.classList.add("hidden");
-      element2.classList.remove("hidden");
-
-       */
-
       if (this.rotation == true) {
         event.target.classList.add("rotate-90");
         const aside = document.querySelector("aside");
