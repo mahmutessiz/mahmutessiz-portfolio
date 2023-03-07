@@ -136,7 +136,12 @@ export default {
           >
             <li>{{ data.projectDescription }}</li>
             <br />
-            <li>Languages: vue.js, tailwind</li>
+            <li>
+              Languages:
+              <span class="font-thin italic text-primary-text-thistle">{{
+                data.tools
+              }}</span>
+            </li>
             <br />
             <li>
               Links:

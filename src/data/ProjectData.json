@@ -8,6 +8,7 @@
     "projectDescription": "This is a pomodoro app that help you to consantrate to do what you want in a given timespace.",
     "github": "Github",
     "demo": "Demo",
+    "tools": "HTML/CSS, JS",
     "linkGithub": "https://github.com/mahmutessiz/Example-Sites/tree/main/basic%20pomodoro%20site",
     "linkDemo": "https://example-sites-pomodoro.vercel.app/"
   },
@@ -20,6 +21,7 @@
     "projectDescription": "A website that you can find quotest and copy them.",
     "github": "Github",
     "demo": "Demo",
+    "tools": "Vue.js, vue-router, Tailwindcss",
     "linkGithub": "https://github.com/mahmutessiz/quotes-website",
     "linkDemo": " https://quotes-website-mahmutessiz.vercel.app/"
   },
@@ -32,6 +34,7 @@
     "projectDescription": "Unleash your full potential with our cutting-edge gym equipment and expert trainers. Join us now and see the difference for yourself.",
     "github": "Github",
     "demo": "Demo",
+    "tools": "HTML/CSS, JS, simpleparallax-library",
     "linkGithub": "https://github.com/mahmutessiz/Gym-site",
     "linkDemo": "https://gym-site-kappa.vercel.app/"
   },
@@ -44,6 +47,7 @@
     "projectDescription": "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
     "github": "Github",
     "demo": "Demo",
+    "tools": "HTML/CSS, JS",
     "linkGithub": "",
     "linkDemo": ""
   },
@@ -56,6 +60,7 @@
     "projectDescription": "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
     "github": "Github",
     "demo": "Demo",
+    "tools": "HTML/CSS, JS",
     "linkGithub": "",
     "linkDemo": ""
   }
