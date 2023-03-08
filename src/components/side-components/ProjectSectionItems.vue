@@ -122,6 +122,7 @@ export default {
             class="aspect-video cursor-pointer transition-all duration-500 md:p-2"
             style="min-height: 16rem"
             :id="data.key"
+            alt="Project image"
           />
         </div>
 

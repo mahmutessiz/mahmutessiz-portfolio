@@ -21,7 +21,7 @@ export default {
       <img
         :src="ata.container"
         class="z-50 my-4 w-1/3 shadow-lg shadow-black transition-all duration-100 ease-in hover:scale-110 md:w-1/4"
-        alt=""
+        alt="project image"
         v-for="ata in imgSliderData"
         :key="ata"
       />
