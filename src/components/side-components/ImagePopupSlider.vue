@@ -15,7 +15,7 @@ export default {
 <template>
   <ul
     :class="displayState"
-    class="top-1/4 z-30 grid h-2/3 w-full place-items-center overflow-auto border py-9 shadow-lg lg:top-16 lg:h-3/4 xl:h-4/5"
+    class="top-1/4 z-30 grid h-2/3 w-full place-items-center overflow-auto overscroll-none border py-9 shadow-lg lg:top-16 lg:h-3/4 xl:h-4/5"
   >
     <li class="flex flex-wrap items-center justify-center gap-4">
       <img
