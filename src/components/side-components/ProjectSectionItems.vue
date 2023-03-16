@@ -149,15 +149,23 @@ export default {
               <a
                 :href="data.linkGithub"
                 target="_blank"
-                class="text-sm text-primary-text-thistle underline"
+                class="text-sm text-primary-text-thistle"
                 >{{ data.github }}</a
               >
-              ,
+              <a
+                v-if="data.linkBlog != ''"
+                :href="data.linkBlog"
+                target="_blank"
+                class="text-sm text-primary-text-thistle"
+              >
+                , {{ data.blog }}</a
+              >
               <a
                 :href="data.linkDemo"
                 target="_blank"
-                class="text-sm text-primary-text-thistle underline"
-                >{{ data.demo }}</a
+                class="text-sm text-primary-text-thistle"
+              >
+                , {{ data.demo }}</a
               >
             </li>
             <br />

@@ -7,10 +7,12 @@
     "projectName": "Pomodoro Website",
     "projectDescription": "This is a pomodoro app that help you to consantrate to do what you want in a given timespace.",
     "github": "Github",
+    "blog": "Blog",
     "demo": "Demo",
     "tools": "HTML/CSS, JS",
     "linkGithub": "https://github.com/mahmutessiz/Example-Sites/tree/main/basic%20pomodoro%20site",
-    "linkDemo": "https://example-sites-pomodoro.vercel.app/"
+    "linkDemo": "https://example-sites-pomodoro.vercel.app/",
+    "linkBlog": ""
   },
   {
     "key": "1",
@@ -20,10 +22,12 @@
     "projectName": "Quotes Website",
     "projectDescription": "A website that you can find quotest and copy them.",
     "github": "Github",
+    "blog": "Blog",
     "demo": "Demo",
     "tools": "Vue.js, vue-router, Tailwindcss",
     "linkGithub": "https://github.com/mahmutessiz/quotes-website",
-    "linkDemo": " https://quotes-website-mahmutessiz.vercel.app/"
+    "linkDemo": " https://quotes-website-mahmutessiz.vercel.app/",
+    "linkBlog": "https://medium.com/@mahmutessiz71/my-first-vue-website-783e94afe0a9"
   },
   {
     "key": "2",
@@ -33,10 +37,12 @@
     "projectName": "Loom GYM website",
     "projectDescription": "Unleash your full potential with our cutting-edge gym equipment and expert trainers. Join us now and see the difference for yourself.",
     "github": "Github",
+    "blog": "Blog",
     "demo": "Demo",
     "tools": "HTML/CSS, JS, simpleparallax-library",
     "linkGithub": "https://github.com/mahmutessiz/Gym-site",
-    "linkDemo": "https://gym-site-kappa.vercel.app/"
+    "linkDemo": "https://gym-site-kappa.vercel.app/",
+    "linkBlog": ""
   },
   {
     "key": "3",
@@ -46,10 +52,12 @@
     "projectName": "A landing page",
     "projectDescription": "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
     "github": "Github",
+    "blog": "Blog",
     "demo": "Demo",
     "tools": "HTML/CSS, JS",
     "linkGithub": "",
-    "linkDemo": ""
+    "linkDemo": "",
+    "linkBlog": ""
   },
   {
     "key": "4",
@@ -59,9 +67,11 @@
     "projectName": "A landing page",
     "projectDescription": "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
     "github": "Github",
+    "blog": "Blog",
     "demo": "Demo",
     "tools": "HTML/CSS, JS",
     "linkGithub": "",
-    "linkDemo": ""
+    "linkDemo": "",
+    "linkBlog": ""
   }
 ]
