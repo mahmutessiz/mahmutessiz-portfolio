@@ -14,7 +14,7 @@ export default {
       lastStyle:
         "w-96 border border-solid rounded sm:mt-8 border-primary-text-thistle text-primary-text-thistle md:w-full md:flex md:gap-4 md:rounded-lg overflow-hidden",
       itemStyle:
-        "w-96 border border-solid border-primary-text-thistle text-primary-text-thistle md:rounded-lg overflow-hidden h-128",
+        "w-96 border border-solid border-primary-text-thistle text-primary-text-thistle md:rounded-lg overflow-hidden h-fit",
       itemStyle2:
         "w-full flex gap-4 border border-primary-text-thistle rounded text-primary-text-thistle md:rounded-lg overflow-hidden",
       ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4",
