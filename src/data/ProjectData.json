@@ -41,8 +41,8 @@
     "blog": "Blog",
     "demo": "Demo",
     "tools": "Vue.js, Tailwindcss, daisyUI , vanilla-tilt.js",
-    "linkGithub": "",
-    "linkDemo": "",
+    "linkGithub": "https://github.com/mahmutessiz/Product-website",
+    "linkDemo": "https://product-website-one.vercel.app/",
     "linkBlog": ""
   },
   {
