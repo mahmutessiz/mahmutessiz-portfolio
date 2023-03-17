@@ -1,19 +1,5 @@
 [
-  {
-    "key": "0",
-    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604688/imageswebp/pomodoro-minified_xizpff.webp",
-    "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-    "projectName": "Pomodoro Website",
-    "projectDescription": "This is a pomodoro app that help you to consantrate to do what you want in a given timespace.",
-    "github": "Github",
-    "blog": "Blog",
-    "demo": "Demo",
-    "tools": "HTML/CSS, JS",
-    "linkGithub": "https://github.com/mahmutessiz/Example-Sites/tree/main/basic%20pomodoro%20site",
-    "linkDemo": "https://example-sites-pomodoro.vercel.app/",
-    "linkBlog": ""
-  },
+  
   {
     "key": "1",
     "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073098/compresspng/The-Best-Quotes-categories-min_tk2my2.webp",
@@ -46,17 +32,32 @@
   },
   {
     "key": "3",
-    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1674811677/images/landing-page-arcitech_mnbaq6.png",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-min_g7gm3k.webp",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-    "projectName": "A landing page",
-    "projectDescription": "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
+    "projectName": "Disco",
+    "projectDescription": "A fully responsive and complete website design.",
+    "github": "Github",
+    "blog": "Blog",
+    "demo": "Demo",
+    "tools": "Vue.js, Tailwindcss, daisyUI , vanilla-tilt.js",
+    "linkGithub": "",
+    "linkDemo": "",
+    "linkBlog": ""
+  },
+  {
+    "key": "0",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604688/imageswebp/pomodoro-minified_xizpff.webp",
+    "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+    "projectName": "Pomodoro Website",
+    "projectDescription": "This is a pomodoro app that help you to consantrate to do what you want in a given timespace.",
     "github": "Github",
     "blog": "Blog",
     "demo": "Demo",
     "tools": "HTML/CSS, JS",
-    "linkGithub": "",
-    "linkDemo": "",
+    "linkGithub": "https://github.com/mahmutessiz/Example-Sites/tree/main/basic%20pomodoro%20site",
+    "linkDemo": "https://example-sites-pomodoro.vercel.app/",
     "linkBlog": ""
   },
   {
