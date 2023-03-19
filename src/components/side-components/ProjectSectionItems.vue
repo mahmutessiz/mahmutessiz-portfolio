@@ -113,8 +113,7 @@ export default {
     <ul :class="ulItemOrderStyle">
       <li :class="lastStyle" v-for="data in projectData" :key="data.key">
         <!-- xxxxxxxxx GET İMAGES FROM A LİNK xxxxxxxxxx  -->
-        <div class="grid aspect-video max-w-sm place-items-center">
-          <!-- xxxxxxxxxxx konsola bak alt ile sırasını bulabiliyorum resmin xxxxxxxxxx -->
+        <div class="grid max-w-sm place-items-center">
           <img
             :src="data.imageSrc"
             @click="imagesGalery"
@@ -126,7 +125,8 @@ export default {
         </div>
 
         <div class="flex w-full flex-col items-center bg-primary-bg-black">
-          <div class="w-full pl-16 text-left">
+          <div class="flex w-full text-left">
+            <div class="w-1/12"></div>
             <h3 :class="centeredProjectName">
               {{ data.projectName }}
             </h3>
