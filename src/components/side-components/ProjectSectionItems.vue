@@ -19,8 +19,7 @@ export default {
         "w-full flex gap-4 border border-primary-text-thistle rounded text-primary-text-thistle md:rounded-lg overflow-hidden",
       ulItemOrderStyle: "flex flex-wrap items-center justify-center gap-4",
       listItemParagraphStyle: "",
-      centeredProjectName:
-        "p-3 text-center text-lg font-bold text-primary-text-thistle",
+      centeredProjectName: "p-3 text-lg font-bold text-primary-text-thistle",
 
       /* xxxxxxx data for imagePopupSlider xxxxxxxx */
 
@@ -127,9 +126,11 @@ export default {
         </div>
 
         <div class="flex w-full flex-col items-center bg-primary-bg-black">
-          <h3 :class="centeredProjectName">
-            {{ data.projectName }}
-          </h3>
+          <div class="w-full pl-16 text-left">
+            <h3 :class="centeredProjectName">
+              {{ data.projectName }}
+            </h3>
+          </div>
 
           <ul
             :class="listItemParagraphStyle"

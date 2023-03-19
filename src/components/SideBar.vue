@@ -32,14 +32,15 @@ export default {
 
 <template>
   <button
+    type="button"
     id="openButton"
-    class="fixed top-28 left-4 z-50 w-fit rounded-full bg-primary-text-thistle px-4 py-2 text-lg opacity-60 transition-all duration-300 sm:hidden"
+    class="top-22 fixed left-4 z-50 w-fit rounded-full bg-primary-text-thistle px-2 py-1 text-lg opacity-60 shadow-lg transition-all duration-300 md:hidden"
     @click="openCloseSidebar"
   >
     &#9776;
   </button>
 
-  <aside :class="sideBarItems.asideStyles" class="hidden sm:block">
+  <aside :class="sideBarItems.asideStyles" class="hidden md:block">
     <ul class="flex list-none flex-col">
       <li :class="sideBarItems.listStyles">
         <a href="https://github.com/mahmutessiz">
