@@ -1,5 +1,19 @@
 [
-  
+  {
+    "key": "3",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-min_g7gm3k.webp",
+    "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+    "projectName": "Disco",
+    "projectDescription": "A fully responsive and complete website design.",
+    "github": "Github",
+    "blog": "Blog",
+    "demo": "Demo",
+    "tools": "Vue.js, Tailwindcss, daisyUI , vanilla-tilt.js",
+    "linkGithub": "https://github.com/mahmutessiz/Product-website",
+    "linkDemo": "https://product-website-one.vercel.app/",
+    "linkBlog": ""
+  },
   {
     "key": "1",
     "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073098/compresspng/The-Best-Quotes-categories-min_tk2my2.webp",
@@ -28,21 +42,6 @@
     "tools": "HTML/CSS, JS, simpleparallax-library",
     "linkGithub": "https://github.com/mahmutessiz/Gym-site",
     "linkDemo": "https://gym-site-kappa.vercel.app/",
-    "linkBlog": ""
-  },
-  {
-    "key": "3",
-    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-min_g7gm3k.webp",
-    "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-    "projectName": "Disco",
-    "projectDescription": "A fully responsive and complete website design.",
-    "github": "Github",
-    "blog": "Blog",
-    "demo": "Demo",
-    "tools": "Vue.js, Tailwindcss, daisyUI , vanilla-tilt.js",
-    "linkGithub": "https://github.com/mahmutessiz/Product-website",
-    "linkDemo": "https://product-website-one.vercel.app/",
     "linkBlog": ""
   },
   {
