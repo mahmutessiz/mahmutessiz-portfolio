@@ -1,7 +1,7 @@
 <template>
-  <div class="h-screen w-full bg-primary-bg-darkslategray">
+  <div class="mt-52 h-screen w-full bg-primary-bg-darkslategray" id="contact">
     <div
-      class="h-96 bg-gradient-to-b from-primary-bg-black to-primary-bg-darkslategray"
+      class="h-96 bg-gradient-to-b from-primary-bg-darkslategray to-primary-bg-darkslategray"
     ></div>
     <div class="mx-auto mb-12 max-w-5xl px-6 sm:px-6 lg:px-8">
       <div class="-mt-72 w-full rounded bg-primary-bg-black p-8 shadow sm:p-12">
@@ -65,7 +65,6 @@
           </div>
           <div class="flex w-full items-center justify-center">
             <button
-              target="_blank"
               class="mt-9 rounded bg-blue-700 py-4 px-10 font-semibold leading-none text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
             >
               Send message

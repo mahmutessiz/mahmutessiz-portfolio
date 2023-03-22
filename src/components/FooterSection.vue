@@ -14,21 +14,84 @@ export default {
 </script>
 
 <template>
-  <footer :class="footerStyle">
-    <ul class="flex w-2/5 flex-wrap items-center justify-center gap-4">
-      <li :class="listStyle">About</li>
-      <li :class="listStyle">Projects</li>
-      <li :class="listStyle">Contact</li>
-      <li :class="listStyle">Resume</li>
-    </ul>
-    <ul class="flex w-2/5 flex-wrap items-center gap-2">
-      <li class="text-center text-lg font-bold">Skils:</li>
-      <br />
-      <li :class="listStyle">HTML5/CSS3,</li>
-      <li :class="listStyle">Vue js,</li>
-      <li :class="listStyle">Tailwindcss,</li>
-      <li :class="listStyle">Javascript</li>
-    </ul>
+  <footer class="relative bottom-0 h-auto w-auto bg-primary-bg-black p-4">
+    <div class="md:mx-12 lg:mx-28 lg:mt-3 lg:flex lg:justify-between">
+      <div class="mb-4 w-96 lg:columns-1">
+        <p class="mb-1 mt-3 font-bold text-secondary-text-silver">About</p>
+        <p class="text-sm text-secondary-text-silver">
+          I am a fan of chess and strategy video games. I enjoy the challenge of
+          thinking ahead and planning my moves carefully. Chess and strategy
+          video games help me develop my logical and analytical skills, as well
+          as my creativity and problem-solving abilities. I find these
+          activities stimulating and rewarding.
+        </p>
+      </div>
+      <div class="mb-4 lg:mt-3">
+        <h3 class="mb-2 font-bold text-secondary-text-silver lg:mb-4">
+          Social Media
+        </h3>
+        <div class="">
+          <div class="flex lg:items-center">
+            <div class="lg:container lg:max-w-screen-lg">
+              <div>
+                <div class="gap-4 lg:flex lg:flex-wrap">
+                  <a href="">
+                    <button
+                      class="inline-flex items-center space-x-2 rounded font-semibold"
+                    >
+                      <img
+                        src="../public/github.png"
+                        class="w-9 transition-transform duration-300 hover:rotate-12"
+                        alt="github"
+                      />
+                    </button>
+                  </a>
+                  <a href="">
+                    <button
+                      class="inline-flex items-center space-x-2 rounded font-semibold"
+                    >
+                      <img
+                        src="../public/linkedin.png"
+                        class="w-9 transition-transform duration-300 hover:rotate-12"
+                        alt="github"
+                      />
+                    </button>
+                  </a>
+                  <a href="">
+                    <button
+                      class="inline-flex items-center space-x-2 rounded font-semibold"
+                    >
+                      <img
+                        src="../public/email.png"
+                        class="w-9 transition-transform duration-300 hover:rotate-12"
+                        alt="github"
+                      />
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-4 lg:mt-3">
+        <h3 class="mb-2 font-bold text-secondary-text-silver lg:mb-2">
+          Navigate
+        </h3>
+        <div class="columns-2 md:columns-3 lg:columns-2">
+          <a class="text-secondary-text-silver" href="">Navigate 0</a><br />
+          <a href="" class="text-secondary-text-silver">Navigate 1</a><br />
+          <a class="text-secondary-text-silver" href="">Navigate 2</a><br />
+          <a class="text-secondary-text-silver" href="">Navigate 3</a><br />
+          <a href="" class="text-secondary-text-silver">Navigate 4</a><br />
+          <a href="" class="text-secondary-text-silver">Navigate 5</a><br />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="mt-2 flex justify-center">
+        <p class="text-gray-400">Mahmut Eşsiz &copy; 2023</p>
+      </div>
+    </div>
   </footer>
-  <p :class="copRight">Mahmut Eşsiz &copy;2023</p>
 </template>

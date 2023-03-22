@@ -7,14 +7,13 @@
       <p
         class="min-w-[20rem] py-4 text-left text-sm text-secondary-text-silver md:text-lg"
       >
-        I am a web developer with a strong foundation in technologies such as
-        HTML, CSS and JavaScript. I am highly motivated and always seeking to
-        improve my skills and stay up-to-date with the latest industry trends. I
-        am confident in my ability to create dynamic, responsive websites and
-        web applications, and I am excited to continue building my career in
-        this field.
+        I'm a front-end developer who loves building engaging and user-friendly
+        web products. I use Vue.js, TailwindCSS and other libraries with ease. I
+        always learn new technologies and best practices to enhance my skills
+        and quality. Contact me if you need a reliable and creative front-end
+        developer.
       </p>
-      <span class="font-bold text-secondary-text-silver"
+      <span class="font-bold text-primary-text-thistle"
         >Stack: vue, js, tailwind, nuxt</span
       >
     </div>
