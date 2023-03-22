@@ -1,57 +1,78 @@
 <template>
-  <div
-    class="flex h-screen flex-col items-center justify-center gap-4 bg-primary-bg-darkslategray"
-    id="contact"
-  >
-    <h2 class="text-3xl font-bold text-primary-text-thistle underline">
-      Contact Form
-    </h2>
-    <form
-      action="https://formsubmit.co/mmagmun@gmail.com"
-      target="_blank"
-      method="POST"
-      class="mt-8 flex w-full flex-col items-center justify-center gap-4 px-8 sm:px-4"
-    >
-      <div class="flex flex-col items-center justify-center gap-4">
-        <input
-          type="text"
-          placeholder=" Name"
-          name="name"
-          class="h-10 w-[20rem] cursor-text border-b border-solid bg-primary-bg-black text-secondary-text-silver sm:w-[21rem]"
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder=" e-mail address"
-          class="h-10 w-[20rem] cursor-text border-b border-solid bg-primary-bg-black text-secondary-text-silver sm:w-[21rem]"
-          required
-        />
-        <input
-          type="text"
-          placeholder=" Subject"
-          name="_subject"
-          class="h-10 w-[20rem] cursor-text border-b border-solid bg-primary-bg-black text-secondary-text-silver sm:w-[21rem]"
-        />
-      </div>
-
-      <div class="flex flex-col gap-2">
-        <textarea
-          name="message"
-          placeholder=" Your message"
-          id=""
-          cols="40"
-          rows="10"
-          class="resize-none bg-primary-bg-black text-secondary-text-silver shadow-md"
-        ></textarea>
-        <button
-          type="submit"
-          about="blank"
-          class="cursor-pointer rounded-lg bg-primary-bg-black py-4 text-primary-text-thistle shadow-md hover:scale-95 hover:shadow-lg"
+  <div class="h-screen w-full bg-primary-bg-darkslategray">
+    <div
+      class="h-96 bg-gradient-to-b from-primary-bg-black to-primary-bg-darkslategray"
+    ></div>
+    <div class="mx-auto mb-12 max-w-5xl px-6 sm:px-6 lg:px-8">
+      <div class="-mt-72 w-full rounded bg-primary-bg-black p-8 shadow sm:p-12">
+        <p class="text-center text-3xl font-bold leading-7 text-white">
+          Contact me
+        </p>
+        <form
+          action="https://formsubmit.co/mmagmun@gmail.com"
+          target="_blank"
+          method="POST"
         >
-          Send
-        </button>
+          <div class="mt-12 items-center md:flex">
+            <div class="flex w-full flex-col md:w-1/2">
+              <label class="font-semibold leading-none text-gray-300"
+                >Name</label
+              >
+              <input
+                type="text"
+                name="name"
+                class="mt-4 rounded border-0 bg-gray-800 p-3 leading-none text-gray-50 focus:border-blue-700 focus:outline-none"
+                required
+              />
+            </div>
+            <div class="mt-4 flex w-full flex-col md:ml-6 md:mt-0 md:w-1/2">
+              <label class="font-semibold leading-none text-gray-300"
+                >E-mail</label
+              >
+              <input
+                name="email"
+                type="email"
+                class="mt-4 rounded border-0 bg-gray-800 p-3 leading-none text-gray-50 focus:border-blue-700 focus:outline-none"
+                required
+              />
+            </div>
+          </div>
+          <div class="mt-8 items-center md:flex">
+            <div class="flex w-full flex-col">
+              <label class="font-semibold leading-none text-gray-300"
+                >Subject</label
+              >
+              <input
+                type="text"
+                name="_subject"
+                class="mt-4 rounded border-0 bg-gray-800 p-3 leading-none text-gray-50 focus:border-blue-700 focus:outline-none"
+                required
+              />
+            </div>
+          </div>
+          <div>
+            <div class="mt-8 flex w-full flex-col">
+              <label class="font-semibold leading-none text-gray-300"
+                >Message</label
+              >
+              <textarea
+                type="text"
+                name="message"
+                class="mt-4 h-40 rounded border-0 bg-gray-800 p-3 text-base leading-none text-gray-50 focus:border-blue-700 focus:outline-none"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="flex w-full items-center justify-center">
+            <button
+              target="_blank"
+              class="mt-9 rounded bg-blue-700 py-4 px-10 font-semibold leading-none text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+            >
+              Send message
+            </button>
+          </div>
+        </form>
       </div>
-    </form>
+    </div>
   </div>
 </template>
