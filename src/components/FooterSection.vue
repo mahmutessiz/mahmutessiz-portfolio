@@ -28,13 +28,13 @@ export default {
       </div>
       <div class="mb-4 lg:mt-3">
         <h3 class="mb-2 font-bold text-secondary-text-silver lg:mb-4">
-          Social Media
+          Social Media & Contact
         </h3>
         <div class="">
           <div class="flex lg:items-center">
             <div class="lg:container lg:max-w-screen-lg">
               <div>
-                <div class="gap-4 lg:flex lg:flex-wrap">
+                <div class="flex gap-4 lg:flex lg:flex-wrap">
                   <a href="https://github.com/mahmutessiz" target="_blank">
                     <button
                       class="inline-flex items-center space-x-2 rounded font-semibold"
@@ -84,13 +84,15 @@ export default {
         <div class="columns-2 md:columns-3 lg:columns-2">
           <a class="text-secondary-text-silver" href="#">Home</a><br />
           <a href="#blog" class="text-secondary-text-silver">Blog</a><br />
-          <a class="text-secondary-text-silver" href="#project">Projects</a><br />
-          <a class="text-secondary-text-silver" href="#contact">Contact</a><br />
+          <a class="text-secondary-text-silver" href="#project">Projects</a
+          ><br />
+          <a class="text-secondary-text-silver" href="#contact">Contact</a
+          ><br />
         </div>
       </div>
     </div>
     <div>
-      <div class="mt-2 flex justify-center">
+      <div class="mt-4 flex justify-center">
         <p class="text-gray-400">Mahmut Eşsiz &copy; 2023</p>
       </div>
     </div>

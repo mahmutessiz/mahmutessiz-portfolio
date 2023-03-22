@@ -126,7 +126,6 @@ export default {
 
         <div class="flex w-full flex-col items-center bg-primary-bg-black">
           <div class="flex w-full text-left">
-            <div class="w-1/12"></div>
             <h3 :class="centeredProjectName">
               {{ data.projectName }}
             </h3>
