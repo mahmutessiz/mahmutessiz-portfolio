@@ -1,6 +1,5 @@
 <script>
 export default {
-  /* xxxxxxxxx props are readonly xxxxxxxx */
   props: {
     imgSliderData: {
       required: false,

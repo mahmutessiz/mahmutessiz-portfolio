@@ -65,7 +65,7 @@
           </div>
           <div class="flex w-full items-center justify-center">
             <button
-              class="mt-9 rounded bg-blue-700 py-4 px-10 font-semibold leading-none text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+              class="mt-9 rounded bg-primary-bg-darkslategray py-4 px-10 font-semibold leading-none text-white hover:scale-105 focus:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2"
             >
               Send message
             </button>

@@ -35,7 +35,7 @@ export default {
             <div class="lg:container lg:max-w-screen-lg">
               <div>
                 <div class="gap-4 lg:flex lg:flex-wrap">
-                  <a href="">
+                  <a href="https://github.com/mahmutessiz" target="_blank">
                     <button
                       class="inline-flex items-center space-x-2 rounded font-semibold"
                     >
@@ -46,7 +46,10 @@ export default {
                       />
                     </button>
                   </a>
-                  <a href="">
+                  <a
+                    href="https://www.linkedin.com/in/mahmut-e%C5%9Fsiz-b1b8a8185/"
+                    target="_blank"
+                  >
                     <button
                       class="inline-flex items-center space-x-2 rounded font-semibold"
                     >
@@ -57,7 +60,7 @@ export default {
                       />
                     </button>
                   </a>
-                  <a href="">
+                  <a href="mailto:mahmutessiz71@gmail.com" target="_blank">
                     <button
                       class="inline-flex items-center space-x-2 rounded font-semibold"
                     >
@@ -79,12 +82,10 @@ export default {
           Navigate
         </h3>
         <div class="columns-2 md:columns-3 lg:columns-2">
-          <a class="text-secondary-text-silver" href="">Navigate 0</a><br />
-          <a href="" class="text-secondary-text-silver">Navigate 1</a><br />
-          <a class="text-secondary-text-silver" href="">Navigate 2</a><br />
-          <a class="text-secondary-text-silver" href="">Navigate 3</a><br />
-          <a href="" class="text-secondary-text-silver">Navigate 4</a><br />
-          <a href="" class="text-secondary-text-silver">Navigate 5</a><br />
+          <a class="text-secondary-text-silver" href="#">Home</a><br />
+          <a href="#blog" class="text-secondary-text-silver">Blog</a><br />
+          <a class="text-secondary-text-silver" href="#project">Projects</a><br />
+          <a class="text-secondary-text-silver" href="#contact">Contact</a><br />
         </div>
       </div>
     </div>
