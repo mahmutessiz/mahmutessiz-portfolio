@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-52 h-screen w-full bg-primary-bg-darkslategray" id="contact">
+  <div class="mt-52 w-full bg-primary-bg-darkslategray pb-20" id="contact">
     <div
       class="h-96 bg-gradient-to-b from-primary-bg-darkslategray to-primary-bg-darkslategray"
     ></div>

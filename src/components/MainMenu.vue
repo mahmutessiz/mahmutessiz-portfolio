@@ -17,7 +17,7 @@ export default {
   <header class="flex w-full justify-center bg-primary-bg-darkslategray">
     <nav>
       <ul
-        class="mt-4 mb-4 flex justify-center gap-7 rounded-3xl bg-primary-bg-black px-6 py-4 text-primary-text-thistle shadow-md"
+        class="mt-4 mb-4 flex justify-center gap-4 rounded-3xl bg-primary-bg-black px-6 py-4 text-xs text-primary-text-thistle shadow-md sm:gap-7 sm:text-base"
       >
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"

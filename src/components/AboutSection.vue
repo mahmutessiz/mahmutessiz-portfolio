@@ -5,7 +5,7 @@
     <div class="w-full md:w-1/2 md:px-16">
       <h1 class="text-left text-3xl font-bold md:text-5xl">I'm Mahmut Eşsiz</h1>
       <p
-        class="min-w-[20rem] py-4 text-left text-sm text-secondary-text-silver md:text-lg"
+        class="min-w-[10rem] py-4 text-left text-sm text-secondary-text-silver sm:min-w-[20rem] md:text-lg"
       >
         I'm a front-end developer who loves building engaging and user-friendly
         web products. I use Vue.js, TailwindCSS and other libraries with ease. I
