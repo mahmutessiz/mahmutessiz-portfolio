@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import App from "@/App.vue";
+import HomeView from "@/views/HomeView.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -7,7 +7,12 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: App,
+      component: HomeView,
+    },
+    {
+      path: "/galery",
+      name: "galery",
+      component: () => import("../views/ImageGalery.vue"),
     },
   ],
 });
