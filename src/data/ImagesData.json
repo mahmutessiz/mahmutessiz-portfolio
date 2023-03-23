@@ -1,0 +1,38 @@
+{
+
+  "disco" : [ "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-min_g7gm3k.webp",
+   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057180/disco/Vite-App-pricing-min_vylwdg.webp",
+   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-contact-min_i7xi3y.webp",
+   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057183/disco/Vite-App-full-about-min_t6omhv.webp",
+   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057180/disco/Vite-App-full-pricing-min_do3h8o.webp",
+   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-full-contact-min_u5nvej.webp",
+   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057182/disco/Vite-App-full-min_ecpqaz.webp"
+
+  ],
+
+  "quotes" : 
+  [
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073098/compresspng/The-Best-Quotes-min_xqksyr.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073098/compresspng/The-Best-Quotes-categories-min_tk2my2.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073097/compresspng/The-Best-Quotes-404-min_c2hvlz.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073097/compresspng/The-Best-Quotes-mobile-min_stmy0o.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073096/compresspng/The-Best-Quotes-category-mobile-min_s6yptt.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073096/compresspng/The-Best-Quotes-404-mobile-min_ui3xn5.webp"
+  ],
+
+  "loomGym" :[
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604703/imageswebp/Loom-GYM_kdgomo.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604703/imageswebp/Loom-GYM_kdgomo.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604689/imageswebp/Loom-GYM-about_bzgvgp.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604706/imageswebp/Loom-GYM-extended_zzszgl.webp"
+  ],
+  "pomodoro" :[
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604688/imageswebp/pomodoro-minified_xizpff.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604687/imageswebp/Pomodoro_ffdbls.webp"
+  ],
+
+  "aLandingPage" :[
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604690/imageswebp/landing-page-mrBeen_emugj1.webp"
+  ]
+}
+
