@@ -1,12 +1,13 @@
 <script>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from "vue-router";
 export default {
   data() {
     return {
+      RouterLink,
       navList: [
         { id: 1, text: "Home", href: "/" },
-        { id: 2, text: "Projects", href: "#project" },
-        { id: 3, text: "Contact", href: "#contact" },
+        { id: 2, text: "Projects", href: "/#project" },
+        { id: 3, text: "Contact", href: "/#contact" },
         { id: 4, text: "Resume", href: "/" },
       ],
     };
@@ -22,12 +23,25 @@ export default {
       >
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
-          v-for="navList in navList"
-          :key="navList.id"
         >
-          <a :href="navList.href" class="focus:text-white active:text-white">{{
-            navList.text
-          }}</a>
+          <RouterLink to="/" class="focus:text-white active:text-white"
+            >Home</RouterLink
+          >
+        </li>
+        <li
+          class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
+        >
+          <a href="#project">Projects</a>
+        </li>
+        <li
+          class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
+        >
+          <a href="#contact">Contact</a>
+        </li>
+        <li
+          class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
+        >
+          <a href="/">Resume</a>
         </li>
       </ul>
     </nav>
