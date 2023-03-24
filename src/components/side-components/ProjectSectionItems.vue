@@ -40,11 +40,15 @@ export default {
         </li>
         <li>
           <span class="font-bold text-white/60">Links: </span><br />
-          <a :href="projectData.linkGithub">Github,</a>
-          <a :href="projectData.linkBlog" v-if="projectData.linkBlog != ''">
+          <a :href="projectData.linkGithub" target="_blank">Github,</a>
+          <a
+            :href="projectData.linkBlog"
+            target="_blank"
+            v-if="projectData.linkBlog != ''"
+          >
             Blog,</a
           >
-          <a :href="projectData.linkDemo"> Live demo</a>
+          <a :href="projectData.linkDemo" target="_blank"> Live demo</a>
         </li>
       </ul>
     </div>
