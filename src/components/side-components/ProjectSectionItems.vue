@@ -24,7 +24,7 @@ export default {
         <img
           :src="projectData.imageSrc"
           :alt="projectData.projectName"
-          class="min-h-[10rem] sm:min-h-[15rem] sm:min-w-[20rem] md:w-[28rem]"
+          class="min-h-[10rem] cursor-pointer sm:min-h-[15rem] sm:min-w-[20rem] md:w-[28rem]"
           @click="router.push(`/galery/${projectData.routerName}`)"
         />
       </div>
