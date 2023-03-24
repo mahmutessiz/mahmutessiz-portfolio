@@ -41,7 +41,7 @@ export default {
         <li>
           <span class="font-bold text-white/60">Links: </span><br />
           <a :href="projectData.linkGithub">Github,</a>
-          <a :href="projectData.linkGithub" v-if="projectData.linkBlog != ''">
+          <a :href="projectData.linkBlog" v-if="projectData.linkBlog != ''">
             Blog,</a
           >
           <a :href="projectData.linkGithub"> Live demo</a>
