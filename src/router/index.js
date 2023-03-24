@@ -9,11 +9,6 @@ const router = createRouter({
       name: "home",
       component: HomeView,
     },
-    /*     {
-      path: "/galery",
-      name: "galery",
-      component: () => import("../views/ImageGalery.vue"),
-    }, */
     {
       path: "/galery/:id",
       name: "imageGalery",
@@ -22,7 +17,7 @@ const router = createRouter({
     {
       path: "/:pathMatch(.*)*",
       name: "notFound",
-      component: () => import("../views/ImageGalery.vue"),
+      component: () => import("@/views/ErrorView.vue"),
     },
   ],
   scrollBehavior() {
