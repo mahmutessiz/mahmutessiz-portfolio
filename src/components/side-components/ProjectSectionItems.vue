@@ -44,7 +44,7 @@ export default {
           <a :href="projectData.linkBlog" v-if="projectData.linkBlog != ''">
             Blog,</a
           >
-          <a :href="projectData.linkGithub"> Live demo</a>
+          <a :href="projectData.linkDemo"> Live demo</a>
         </li>
       </ul>
     </div>
