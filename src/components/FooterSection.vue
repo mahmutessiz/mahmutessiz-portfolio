@@ -15,7 +15,9 @@ export default {
 
 <template>
   <footer class="relative w-full bg-primary-bg-black p-4">
-    <div class="flex flex-wrap md:mx-12 lg:mx-28 lg:mt-3 lg:flex lg:justify-between">
+    <div
+      class="flex flex-wrap gap-4 md:mx-12 lg:mx-28 lg:mt-3 lg:flex lg:justify-between"
+    >
       <div class="mb-4 w-96 lg:columns-1">
         <p class="mb-1 mt-3 font-bold text-secondary-text-silver">About</p>
         <p class="text-sm text-secondary-text-silver">
@@ -77,7 +79,7 @@ export default {
           </div>
         </div>
       </div>
-      <div class="mb-4 lg:mt-3">
+      <div class="mb-4 ml-4 lg:mt-3">
         <h3 class="mb-2 font-bold text-secondary-text-silver lg:mb-2">
           Navigate
         </h3>
