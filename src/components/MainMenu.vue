@@ -13,16 +13,6 @@ export default {
       ],
     };
   },
-  methods: {
-    scrollContact() {
-      const contact = document.getElementById("contact");
-      contact.scrollIntoView();
-    },
-    scrollProject() {
-      const project = document.getElementById("project");
-      project.scrollIntoView();
-    },
-  },
 };
 </script>
 
@@ -42,12 +32,12 @@ export default {
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
         >
-          <p @click="scrollProject">Projects</p>
+          <a href="#project">Projects</a>
         </li>
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
         >
-          <p @click="scrollContact">Contact</p>
+          <a href="#contact">Contact</a>
         </li>
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
