@@ -46,7 +46,7 @@
     </div>
     <div class="w-full overflow-hidden rounded-lg md:w-1/3">
       <img
-        src="../assets/icons/hero_image.png"
+        src="../assets/icons/hero.jpg"
         class="rounded-lg opacity-40"
         alt="hero image"
       />
