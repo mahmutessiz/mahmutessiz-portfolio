@@ -13,9 +13,30 @@
         and quality. Contact me if you need a reliable and creative front-end
         developer.
       </p>
-      <span class="font-bold text-primary-text-thistle"
-        >Stack: vue, js, tailwind, nuxt</span
-      >
+      <span class="font-bold text-primary-text-thistle">Stack: </span>
+      <div class="flex flex-wrap gap-2 py-4">
+        <img src="../assets/icons/html-5.png" class="w-8" alt="html" /><img
+          src="../assets/icons/css-3.png"
+          class="w-8"
+          alt="css"
+        /><img src="../assets/icons/js.png" class="w-8" alt="javascript" /><img
+          src="../assets/icons/vuejs.svg"
+          class="w-8"
+          alt="vue.js"
+        /><img
+          src="../assets/icons/vuetify.png"
+          class="w-8"
+          alt="vuetify"
+        /><img src="../assets/icons/git-alt.svg" class="w-8" alt="git" />
+        <img src="../assets/icons/github.svg" class="w-8" alt="github" />
+
+        <img src="../assets/icons/th.png" class="w-8" alt="daisyUi" />
+        <img
+          src="../assets/icons/tailwind-css.png"
+          class="w-8"
+          alt="tailwindcss"
+        />
+      </div>
     </div>
     <div class="h-96 w-full bg-primary-bg-black md:w-1/3"></div>
   </section>
