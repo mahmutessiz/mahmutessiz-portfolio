@@ -42,7 +42,7 @@ export default {
                       class="inline-flex items-center space-x-2 rounded font-semibold"
                     >
                       <img
-                        src="../assets/github.png"
+                        src="../assets/github_1.webp"
                         class="w-9 transition-transform duration-300 hover:rotate-12"
                         alt="github"
                       />
@@ -56,7 +56,7 @@ export default {
                       class="inline-flex items-center space-x-2 rounded font-semibold"
                     >
                       <img
-                        src="../assets/linkedin.png"
+                        src="../assets/linkedin_1.webp"
                         class="w-9 transition-transform duration-300 hover:rotate-12"
                         alt="github"
                       />
@@ -67,7 +67,7 @@ export default {
                       class="inline-flex items-center space-x-2 rounded font-semibold"
                     >
                       <img
-                        src="../assets/email.png"
+                        src="../assets/email_1.webp"
                         class="w-9 transition-transform duration-300 hover:rotate-12"
                         alt="github"
                       />

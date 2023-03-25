@@ -44,18 +44,18 @@ export default {
     <ul class="flex list-none flex-col">
       <li :class="sideBarItems.listStyles">
         <a href="https://github.com/mahmutessiz">
-          <img src="../assets/github.png" alt="Github" />
+          <img src="../assets/github_1.webp" alt="Github" />
         </a>
       </li>
       <li :class="sideBarItems.listStyles">
         <a href="https://www.linkedin.com/in/mahmut-e%C5%9Fsiz-b1b8a8185/"
-          ><img src="../assets/linkedin.png" alt="linkedin" />
+          ><img src="../assets/linkedin_1.webp" alt="linkedin" />
         </a>
       </li>
 
       <li :class="sideBarItems.listStyles">
         <a href="mailto:mahmutessiz72@gmail.com"
-          ><img src="../assets/email.png" alt="e-mail"
+          ><img src="../assets/email_1.webp" alt="e-mail"
         /></a>
       </li>
     </ul>

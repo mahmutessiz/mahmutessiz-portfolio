@@ -19,26 +19,26 @@
         and quality. Contact me if you need a reliable and creative front-end
         developer.
       </p>
-      <span class="font-bold text-primary-text-thistle">Stack: </span>
+      <span class="font-bold text-primary-text-thistle">Tech Stack: </span>
       <div class="flex flex-wrap gap-2 py-4">
-        <img src="../assets/icons/html-5.png" class="w-8" alt="html" /><img
-          src="../assets/icons/css-3.png"
+        <img src="../assets/icons/html-5-min.webp" class="w-8" alt="html" /><img
+          src="../assets/icons/css-3-min.webp"
           class="w-8"
           alt="css"
-        /><img src="../assets/icons/js.png" class="w-8" alt="javascript" /><img
-          src="../assets/icons/vuejs.svg"
-          class="w-8"
-          alt="vue.js"
         /><img
-          src="../assets/icons/vuetify.png"
+          src="../assets/icons/js-min.webp"
+          class="w-8"
+          alt="javascript"
+        /><img src="../assets/icons/vuejs.svg" class="w-8" alt="vue.js" /><img
+          src="../assets/icons/vuetify-min.webp"
           class="w-8"
           alt="vuetify"
         /><img src="../assets/icons/git-alt.svg" class="w-8" alt="git" />
         <img src="../assets/icons/github.svg" class="w-8" alt="github" />
 
-        <img src="../assets/icons/th.png" class="w-8" alt="daisyUi" />
+        <img src="../assets/icons/th-min.webp" class="w-8" alt="daisyUi" />
         <img
-          src="../assets/icons/tailwind-css.png"
+          src="../assets/icons/tailwind-css-min.webp"
           class="w-8"
           alt="tailwindcss"
         />
@@ -46,7 +46,7 @@
     </div>
     <div class="w-full overflow-hidden rounded-lg md:w-1/3">
       <img
-        src="../assets/icons/hero.jpg"
+        src="../assets/icons/hero.webp"
         class="rounded-lg opacity-40"
         alt="hero image"
       />
