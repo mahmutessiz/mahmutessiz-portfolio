@@ -44,6 +44,12 @@
         />
       </div>
     </div>
-    <div class="h-96 w-full bg-primary-bg-black md:w-1/3"></div>
+    <div class="w-full overflow-hidden rounded-lg md:w-1/3">
+      <img
+        src="../assets/icons/hero_image.png"
+        class="rounded-lg opacity-40"
+        alt="hero image"
+      />
+    </div>
   </section>
 </template>
