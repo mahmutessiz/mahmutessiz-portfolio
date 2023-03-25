@@ -1,5 +1,6 @@
 <script>
 import { RouterLink } from "vue-router";
+
 export default {
   data() {
     return {
@@ -11,6 +12,16 @@ export default {
         { id: 4, text: "Resume", href: "/" },
       ],
     };
+  },
+  methods: {
+    scrollContact() {
+      const contact = document.getElementById("contact");
+      contact.scrollIntoView();
+    },
+    scrollProject() {
+      const project = document.getElementById("project");
+      project.scrollIntoView();
+    },
   },
 };
 </script>
@@ -31,12 +42,12 @@ export default {
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
         >
-          <a href="#project">Projects</a>
+          <p @click="scrollProject">Projects</p>
         </li>
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
         >
-          <a href="#contact">Contact</a>
+          <p @click="scrollContact">Contact</p>
         </li>
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
