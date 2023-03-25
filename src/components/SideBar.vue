@@ -5,7 +5,7 @@ export default {
       sideBarItems: {
         listStyles: "my-4 cursor-pointer transition-transform hover:rotate-12",
         asideStyles:
-          "fixed top-44 left-4 flex w-14 items-center justify-center rounded-2xl bg-primary-bg-black py-10 px-2 shadow-lg shadow-black z-50",
+          "fixed top-[29%] left-4 flex w-14 items-center justify-center rounded-2xl bg-primary-bg-black py-10 px-2 shadow-lg shadow-black z-50",
       },
       rotation: true,
     };
