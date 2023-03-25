@@ -85,7 +85,9 @@ export default {
         </h3>
         <div class="columns-2 md:columns-3 lg:columns-2">
           <a class="text-secondary-text-silver" href="#">Home</a><br />
-          <a href="#blog" class="text-secondary-text-silver">Blog</a><br />
+          <RouterLink to="/blog" class="text-secondary-text-silver"
+            >Blog</RouterLink
+          ><br />
           <a class="text-secondary-text-silver" href="#project">Projects</a
           ><br />
           <a class="text-secondary-text-silver" href="#contact">Contact</a

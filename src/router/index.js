@@ -15,6 +15,11 @@ const router = createRouter({
       component: () => import("../views/ImageGalery.vue"),
     },
     {
+      path: "/blog",
+      name: "imageGalery",
+      component: () => import("../views/BlogView.vue"),
+    },
+    {
       path: "/:pathMatch(.*)*",
       name: "notFound",
       component: () => import("@/views/ErrorView.vue"),

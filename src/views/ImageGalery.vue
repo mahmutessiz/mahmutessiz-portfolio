@@ -1,12 +1,14 @@
 <script>
 import ImagesData from "../data/ImagesData.json";
 import { useRoute } from "vue-router";
+import { RouterLink } from "vue-router";
 export default {
   data() {
     return {
       ImagesData: ImagesData,
       route: useRoute(),
       routeName: "disco",
+      RouterLink,
     };
   },
   beforeMount() {

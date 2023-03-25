@@ -3,7 +3,13 @@
     class="flex w-full flex-wrap items-center justify-center gap-4 bg-primary-bg-darkslategray px-8 py-16 text-primary-text-thistle sm:px-12 md:py-40"
   >
     <div class="w-full md:w-1/2 md:px-16">
-      <h1 class="text-left text-3xl font-bold md:text-5xl">I'm Mahmut Eşsiz</h1>
+      <h1 class="text-left text-3xl font-bold md:text-5xl">
+        <span class="text-xl text-primary-text-thistle/90 md:text-3xl"
+          >This is</span
+        >
+        <br />
+        <span>Mahmut Eşsiz</span>
+      </h1>
       <p
         class="min-w-[10rem] py-4 text-left text-sm text-secondary-text-silver sm:min-w-[20rem] md:text-lg"
       >
