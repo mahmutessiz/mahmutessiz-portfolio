@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex w-full flex-wrap items-center justify-center gap-4 bg-primary-bg-darkslategray px-8 py-12 text-primary-text-thistle sm:px-12 md:-mt-[5%] md:h-screen"
+    class="flex w-full flex-wrap items-center justify-center gap-4 bg-primary-bg-darkslategray px-8 py-12 text-primary-text-thistle sm:px-12 md:-mt-[5%] lg:h-screen"
   >
     <div class="w-full md:w-1/2 md:px-16">
       <h1 class="text-left text-3xl font-bold md:text-5xl">

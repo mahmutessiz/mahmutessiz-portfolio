@@ -5,7 +5,7 @@ export default {
       sideBarItems: {
         listStyles: "my-4 cursor-pointer transition-transform hover:rotate-12",
         asideStyles:
-          "fixed top-[29%] left-4 flex w-14 items-center justify-center rounded-2xl bg-primary-bg-black py-10 px-2 shadow-lg shadow-black z-50",
+          "fixed top-[39%] left-[80%] md:top-[29%] md:left-4 flex w-14 items-center justify-center rounded-2xl bg-primary-bg-black py-10 px-2 shadow-lg shadow-black z-50",
       },
       rotation: true,
     };
@@ -34,7 +34,7 @@ export default {
   <button
     type="button"
     id="openButton"
-    class="top-22 fixed left-4 z-50 w-fit rounded-full bg-primary-text-thistle px-2 py-1 text-lg opacity-60 shadow-lg transition-all duration-300 md:hidden"
+    class="fixed top-[85%] left-[85%] z-50 w-fit rounded-full bg-primary-text-thistle px-2 py-1 text-lg opacity-50 shadow-lg transition-all duration-300 md:hidden"
     @click="openCloseSidebar"
   >
     &#9776;
