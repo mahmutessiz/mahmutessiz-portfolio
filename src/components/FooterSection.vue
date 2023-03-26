@@ -84,7 +84,8 @@ export default {
           Navigate
         </h3>
         <div class="columns-2 md:columns-3 lg:columns-2">
-          <a class="text-secondary-text-silver" href="#">Home</a><br />
+          <RouterLink class="text-secondary-text-silver" to="/">Home</RouterLink
+          ><br />
           <RouterLink to="/blog" class="text-secondary-text-silver"
             >Blog</RouterLink
           ><br />
