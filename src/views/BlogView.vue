@@ -4,7 +4,9 @@ export default {
 };
 </script>
 <template>
-  <header class="flex w-full justify-center bg-primary-bg-darkslategray">
+  <header
+    class="sticky -top-1 flex w-full justify-center bg-primary-bg-darkslategray"
+  >
     <nav>
       <ul
         class="mt-4 mb-4 flex justify-center gap-4 rounded-3xl bg-primary-bg-black px-6 py-4 text-xs text-primary-text-thistle shadow-md sm:gap-7 sm:text-base"
@@ -36,7 +38,7 @@ export default {
           tabindex="0"
           class="text-center text-3xl tracking-wider focus:outline-none lg:text-5xl"
         >
-          Sonmethins about my projects
+          Somethings about my projects
         </h1>
       </span>
       <div
