@@ -5,12 +5,6 @@ export default {
   data() {
     return {
       RouterLink,
-      navList: [
-        { id: 1, text: "Home", href: "/" },
-        { id: 2, text: "Projects", href: "/#project" },
-        { id: 3, text: "Contact", href: "/#contact" },
-        { id: 4, text: "Resume", href: "/" },
-      ],
     };
   },
 };
