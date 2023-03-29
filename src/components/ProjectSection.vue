@@ -9,7 +9,7 @@ export default {
 
 <template>
   <section
-    class="flex flex-col items-center justify-center bg-primary-bg-black pb-8 pt-24"
+    class="mt-24 flex flex-col items-center justify-center bg-primary-bg-black pb-8"
     id="project"
   >
     <div class="flex w-1/2 flex-col items-center justify-center">
