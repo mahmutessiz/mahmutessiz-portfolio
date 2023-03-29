@@ -5,7 +5,49 @@ export default {
   data() {
     return {
       RouterLink,
+      currenSection: "",
     };
+  },
+  watch: {
+    currenSection(newValue) {
+      if (newValue == "contact") {
+        document
+          .querySelector(".contact")
+          .classList.add("underline", "text-white");
+        document
+          .querySelector(".project")
+          .classList.remove("underline", "text-white");
+      } else if (newValue == "project") {
+        document
+          .querySelector(".project")
+          .classList.add("underline", "text-white");
+        document
+          .querySelector(".home")
+          .classList.remove("underline", "text-white");
+        document
+          .querySelector(".contact")
+          .classList.remove("underline", "text-white");
+      } else if (newValue == "home") {
+        document
+          .querySelector(".home")
+          .classList.add("underline", "text-white");
+        document
+          .querySelector(".project")
+          .classList.remove("underline", "text-white");
+      }
+    },
+  },
+  mounted() {
+    let observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.intersectionRatio > 0) {
+          this.currenSection = entry.target.id;
+        }
+      });
+    });
+    document.querySelectorAll("section").forEach((section) => {
+      observer.observe(section);
+    });
   },
 };
 </script>
@@ -19,19 +61,19 @@ export default {
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
         >
-          <RouterLink to="/" class="focus:text-white active:text-white"
+          <RouterLink to="/" class="home focus:text-white active:text-white"
             >Home</RouterLink
           >
         </li>
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white focus:text-white active:text-white"
         >
-          <a href="#project">Projects</a>
+          <a href="#project" class="project">Projects</a>
         </li>
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white focus:text-white active:text-white"
         >
-          <a href="#contact">Contact</a>
+          <a href="#contact" class="contact">Contact</a>
         </li>
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white focus:text-white active:text-white"
