@@ -24,17 +24,17 @@ export default {
           >
         </li>
         <li
-          class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
+          class="cursor-pointer font-bold transition-all duration-500 hover:text-white focus:text-white active:text-white"
         >
           <a href="#project">Projects</a>
         </li>
         <li
-          class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
+          class="cursor-pointer font-bold transition-all duration-500 hover:text-white focus:text-white active:text-white"
         >
           <a href="#contact">Contact</a>
         </li>
         <li
-          class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
+          class="cursor-pointer font-bold transition-all duration-500 hover:text-white focus:text-white active:text-white"
         >
           <a href="/">Resume</a>
         </li>
