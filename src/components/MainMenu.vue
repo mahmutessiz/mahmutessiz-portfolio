@@ -5,35 +5,22 @@ export default {
   data() {
     return {
       RouterLink,
-      currenSection: "",
+      currentSection: "",
     };
   },
   watch: {
-    currenSection(newValue) {
+    currentSection(newValue) {
       if (newValue == "contact") {
-        document
-          .querySelector(".contact")
-          .classList.add("underline", "text-white");
-        document
-          .querySelector(".project")
-          .classList.remove("underline", "text-white");
+        document.querySelector(".contact").classList.add("text-white");
+        document.querySelector(".project").classList.remove("text-white");
       } else if (newValue == "project") {
-        document
-          .querySelector(".project")
-          .classList.add("underline", "text-white");
-        document
-          .querySelector(".home")
-          .classList.remove("underline", "text-white");
-        document
-          .querySelector(".contact")
-          .classList.remove("underline", "text-white");
-      } else if (newValue == "home") {
-        document
-          .querySelector(".home")
-          .classList.add("underline", "text-white");
-        document
-          .querySelector(".project")
-          .classList.remove("underline", "text-white");
+        document.querySelector(".project").classList.add("text-white");
+        document.querySelector(".home").classList.remove("text-white");
+        document.querySelector(".contact").classList.remove("text-white");
+      } else {
+        document.querySelector(".home").classList.add("text-white");
+        document.querySelector(".project").classList.remove("text-white");
+        document.querySelector(".contact").classList.remove("text-white");
       }
     },
   },
@@ -41,7 +28,7 @@ export default {
     let observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.intersectionRatio > 0) {
-          this.currenSection = entry.target.id;
+          this.currentSection = entry.target.id;
         }
       });
     });
