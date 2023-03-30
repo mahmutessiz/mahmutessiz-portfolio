@@ -5,33 +5,38 @@ export default {
   data() {
     return {
       RouterLink,
-      currentSection: "",
+      currentSection: "home",
     };
   },
   watch: {
     currentSection(newValue) {
-      if (newValue == "contact") {
-        document.querySelector(".contact").classList.add("text-white");
+      if (newValue == "home") {
+        document.querySelector(".home").classList.add("text-white");
         document.querySelector(".project").classList.remove("text-white");
+        document.querySelector(".contact").classList.remove("text-white");
       } else if (newValue == "project") {
         document.querySelector(".project").classList.add("text-white");
         document.querySelector(".home").classList.remove("text-white");
         document.querySelector(".contact").classList.remove("text-white");
       } else {
-        document.querySelector(".home").classList.add("text-white");
+        document.querySelector(".contact").classList.add("text-white");
         document.querySelector(".project").classList.remove("text-white");
-        document.querySelector(".contact").classList.remove("text-white");
+        document.querySelector(".home").classList.remove("text-white");
       }
+      console.log(this.currentSection);
     },
   },
   mounted() {
-    let observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.intersectionRatio > 0) {
-          this.currentSection = entry.target.id;
-        }
-      });
-    });
+    let observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.intersectionRatio > 0) {
+            this.currentSection = entry.target.id;
+          }
+        });
+      },
+      { rootMargin: "-10% 0px -30% 0px", root: null }
+    );
     document.querySelectorAll("section").forEach((section) => {
       observer.observe(section);
     });

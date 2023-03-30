@@ -53,4 +53,5 @@
       />
     </div>
   </section>
+  <div id="empty-space" class="h-24 w-full bg-transparent md:hidden"></div>
 </template>
