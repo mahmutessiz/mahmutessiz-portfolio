@@ -23,7 +23,6 @@ export default {
         document.querySelector(".project").classList.remove("text-white");
         document.querySelector(".home").classList.remove("text-white");
       }
-      console.log(this.currentSection);
     },
   },
   mounted() {
