@@ -52,19 +52,25 @@ export default {
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
         >
-          <RouterLink to="/" class="home focus:text-white active:text-white"
+          <RouterLink
+            to="/"
+            class="home transition-all duration-300 focus:text-white active:text-white"
             >Home</RouterLink
           >
         </li>
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white focus:text-white active:text-white"
         >
-          <a href="#project" class="project">Projects</a>
+          <a href="#project" class="project transition-all duration-300"
+            >Projects</a
+          >
         </li>
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white focus:text-white active:text-white"
         >
-          <a href="#contact" class="contact">Contact</a>
+          <a href="#contact" class="contact transition-all duration-300"
+            >Contact</a
+          >
         </li>
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white focus:text-white active:text-white"

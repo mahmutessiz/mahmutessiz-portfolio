@@ -30,10 +30,10 @@ export default {
       </div>
 
       <ul class="flex flex-col gap-2 py-4 px-6 sm:w-1/2">
-        <li class="py-2 text-lg font-bold text-white/70">
+        <li class="text-lg font-bold text-white/70">
           {{ projectData.projectName }}
         </li>
-        <li>{{ projectData.projectDescription }}</li>
+        <li class="-mt-2 pb-2">{{ projectData.projectDescription }}</li>
         <li>
           <span class="font-bold text-white/60">Tools & languages:</span> <br />
           {{ projectData.tools }}
