@@ -1,4 +1,18 @@
 [
+  
+  {
+    "key": "4",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392937/movies-website/similar_kqe7dj.webp",
+    " descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
+    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
+    "projectName": "Movies website",
+    "routerName": "moviesApp",
+    "projectDescription": "This website is a movie database featuring editor’s picks, top and trending movies, and new releases.",
+    "tools": "Vue.js, vue-router, pinia, swiper js, Tailwindcss, daisyUI and TMDB API",
+    "linkGithub": "https://github.com/mahmutessiz/Product-website",
+    "linkDemo": "https://movies-app-blush-ten.vercel.app/",
+    "linkBlog": ""
+  },
   {
     "key": "3",
     "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-min_g7gm3k.webp",
@@ -52,19 +66,6 @@
     "tools": "HTML/CSS, JS",
     "linkGithub": "https://github.com/mahmutessiz/Example-Sites/tree/main/basic%20pomodoro%20site",
     "linkDemo": "https://example-sites-pomodoro.vercel.app/",
-    "linkBlog": ""
-  },
-  {
-    "key": "4",
-    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604690/imageswebp/landing-page-mrBeen_emugj1.webp",
-    " descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
-    "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-    "projectName": "A landing page",
-    "routerName": "aLandingPage",
-    "projectDescription": "A website landing page design. I did not use any animations etc. This is a dummy design. I'll improve this in the future.",
-    "tools": "HTML/CSS, JS",
-    "linkGithub": "",
-    "linkDemo": "",
     "linkBlog": ""
   }
 ]

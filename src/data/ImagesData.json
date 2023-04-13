@@ -32,8 +32,12 @@
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604687/imageswebp/Pomodoro_ffdbls.webp"
   ],
 
-  "aLandingPage" :[
-    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604690/imageswebp/landing-page-mrBeen_emugj1.webp"
+  "moviesApp" :[
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392937/movies-website/similar_kqe7dj.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392936/movies-website/movie_nyxchj.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392940/movies-website/similar-full_z4hj8p.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392940/movies-website/movie-full_lfqhr1.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392935/movies-website/404_o6qneg.webp"
   ]
 }
 
