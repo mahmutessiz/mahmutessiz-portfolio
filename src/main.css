@@ -29,3 +29,7 @@
     background-color: #111118;
     overflow-x: hidden;
   }
+  #app{
+    max-width: 1920px;
+    margin-inline: auto;
+  }
