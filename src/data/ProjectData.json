@@ -57,15 +57,15 @@
   },
   {
     "key": "0",
-    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604688/imageswebp/pomodoro-minified_xizpff.webp",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1684433627/cocktail-app/Cocktail-App-hero-min_nxqrgm.webp",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-    "projectName": "Pomodoro Website",
-    "routerName": "pomodoro",
-    "projectDescription": "This is a pomodoro app that help you to concentrate to do what you want in a given time span.",
-    "tools": "HTML/CSS, JS",
-    "linkGithub": "https://github.com/mahmutessiz/Example-Sites/tree/main/basic%20pomodoro%20site",
-    "linkDemo": "https://example-sites-pomodoro.vercel.app/",
+    "projectName": "Cocktail App",
+    "routerName": "cocktailApp",
+    "projectDescription": " Each cocktail is listed with its name and a brief description of its ingredients and preparation.",
+    "tools": "nuxt3, cocktail api",
+    "linkGithub": "https://github.com/mahmutessiz/Cocktail_app/tree/master/cocktail-recipe-app",
+    "linkDemo": "https://cocktail-app-umber.vercel.app/",
     "linkBlog": ""
   }
 ]
