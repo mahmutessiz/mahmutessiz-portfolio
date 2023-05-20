@@ -1,9 +1,8 @@
 <script setup>
 import BlogPostData from "../data/BlogPostData.json";
-import { useRouter, RouterLink } from "vue-router";
+import { RouterLink } from "vue-router";
 
 const blogPostData = BlogPostData;
-const router = useRouter();
 </script>
 <template>
   <header
@@ -40,7 +39,9 @@ const router = useRouter();
       <img :src="blogPost.pictures[0]" :alt="blogPost.name" />
       <ul class="w-full px-2 pb-4">
         <li class="pb-2 text-xl font-bold">{{ blogPost.name }}</li>
-        <li class="text-primary-text-thistle/80">{{ blogPost.description }}</li>
+        <li class="line-clamp-5 text-primary-text-thistle/80">
+          {{ blogPost.description }}
+        </li>
         <li class="flex w-full justify-end px-4 pt-4">
           <router-link :to="'/blog-post/:' + blogPost.name">
             <button
