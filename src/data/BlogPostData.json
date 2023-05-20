@@ -1,9 +1,37 @@
 {
-    "posts": {
+ "portfolio": {
+        "id": 0,
         "name": "My Portfolio Website",
-        "pictures": [],
-        "text": ""
-    }
-
-    
+        "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1684584095/portfolio-images/Mahmut-E%C5%9Fsiz-portfolio-min_j5ucfs.webp",
+                     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1684584096/portfolio-images/Mahmut-E%C5%9Fsiz-fullwiev-min_e0thgm.webp"],
+        "description": "Mahmutessiz.dev is a personal website for Mahmut Eşsiz, a web developer. The website is built with Vue 3, JavaScript, TailwindCSS, and Vue Router. It features a clean and modern design, is fully responsive, and the content is well-organized and easy to read. Mahmutessiz.dev is a great example of how to use these technologies to create a beautiful and functional website."
+ },
+ "movies": {
+    "id": 1,
+    "name": "Movies website",
+    "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392936/movies-website/movie_nyxchj.webp",
+                 "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392940/movies-website/similar-full_z4hj8p.webp"],
+    "description": "movies-app-blush-ten.vercel.app is a website that showcases movies using a modern and powerful tech stack. The website is built using Vue 3, JavaScript, TailwindCSS, Vue Router, DaisyUI, TMDB API, Swiper JS, and Pinia. These technologies combine to create a fast, responsive, and visually appealing website that provides an enjoyable user experience. Check it out to see these technologies in action!"
+},
+"disco": {
+   "id": 2,
+   "name": "Disco",
+   "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-min_g7gm3k.webp",
+                "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057183/disco/Vite-App-full-about-min_t6omhv.webp"],
+   "description": "a website built using a modern tech stack that includes TailwindCSS, DaisyUI, Vue 3, and Vue Router. TailwindCSS is a utility-first CSS framework that allows for rapid styling of HTML elements. DaisyUI is a component library for TailwindCSS that provides pre-built UI components. Vue 3 is a popular JavaScript framework for building user interfaces and single-page applications, and Vue Router is the official router for Vue.js. Together, these technologies create a visually appealing and responsive website."
+},
+"quotes": {
+    "id": 3,
+    "name": "Quotes website",
+    "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1680267018/compresspng/The-Best-Quotes_lcyrml.webp",
+                 "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073098/compresspng/The-Best-Quotes-min_xqksyr.webp"],
+    "description": "quotes-website-mahmutessiz.vercel.app is a website built using TailwindCSS, Vue 3, and Vue Router. These technologies combine to create a visually appealing and responsive website. Check it out to see them in action!"
+ },
+"gym": {
+    "id": 4,
+    "name": "Gym website",
+    "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604703/imageswebp/Loom-GYM_kdgomo.webp",
+                 "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604706/imageswebp/Loom-GYM-extended_zzszgl.webp"],
+    "description": "gym-site-kappa.vercel.app is a website built using HTML, JavaScript, CSS, and the simpleParallax library. These technologies combine to create a visually appealing and functional website. The simpleParallax library adds an extra layer of visual interest with parallax scrolling effects on images. Check it out to see these technologies in action!"
+ }
 }
