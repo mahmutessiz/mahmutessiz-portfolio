@@ -43,19 +43,53 @@ export default {
   <aside :class="sideBarItems.asideStyles" class="hidden md:block">
     <ul class="flex list-none flex-col">
       <li :class="sideBarItems.listStyles">
+        <a
+          href="https://github.com/mahmutessiz"
+          class="text-primary-text-thistle"
+          title="CV"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="42"
+            height="42"
+            viewBox="0 0 24 24"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            >
+              <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+              <path
+                d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"
+              />
+              <path
+                d="M11 12.5a1.5 1.5 0 0 0-3 0v3a1.5 1.5 0 0 0 3 0m2-4.5l1.5 6l1.5-6"
+              />
+            </g>
+          </svg>
+        </a>
+      </li>
+      <li :class="sideBarItems.listStyles">
         <a href="https://github.com/mahmutessiz">
-          <img src="../assets/github_1.webp" alt="Github" />
+          <img src="../assets/github_1.webp" alt="Github" title="Github" />
         </a>
       </li>
       <li :class="sideBarItems.listStyles">
         <a href="https://www.linkedin.com/in/mahmut-e%C5%9Fsiz-b1b8a8185/"
-          ><img src="../assets/linkedin_1.webp" alt="linkedin" />
+          ><img
+            src="../assets/linkedin_1.webp"
+            alt="linkedin"
+            title="linkedin"
+          />
         </a>
       </li>
 
       <li :class="sideBarItems.listStyles">
         <a href="mailto:mahmutessiz72@gmail.com"
-          ><img src="../assets/email_1.webp" alt="e-mail"
+          ><img src="../assets/email_1.webp" alt="e-mail" title="e-mail"
         /></a>
       </li>
     </ul>

@@ -75,7 +75,7 @@ export default {
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white focus:text-white active:text-white"
         >
-          <a href="/">Resume</a>
+          <a href="/">Blog</a>
         </li>
       </ul>
     </nav>
