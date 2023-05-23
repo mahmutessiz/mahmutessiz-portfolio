@@ -10,7 +10,7 @@ const blogPostData = BlogPostData;
   >
     <nav>
       <ul
-        class="mt-4 mb-4 flex justify-center gap-4 rounded-3xl bg-primary-bg-black px-6 py-4 text-xs text-primary-text-thistle shadow-md sm:gap-7 sm:text-base"
+        class="mb-4 mt-4 flex justify-center gap-4 rounded-3xl bg-primary-bg-black px-6 py-4 text-xs text-primary-text-thistle shadow-md sm:gap-7 sm:text-base"
       >
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
@@ -43,7 +43,7 @@ const blogPostData = BlogPostData;
           {{ blogPost.description }}
         </li>
         <li class="flex w-full justify-end px-4 pt-4">
-          <router-link :to="'/blog-post/:' + blogPost.name">
+          <router-link :to="'/blog-post/' + blogPost.param">
             <button
               class="flex items-center justify-center gap-2 rounded-md border px-4 py-2 text-white transition-all duration-200 hover:border-primary-text-thistle/50 hover:text-white/50"
             >

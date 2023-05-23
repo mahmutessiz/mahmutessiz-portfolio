@@ -1,6 +1,7 @@
 {
  "portfolio": {
         "id": 0,
+        "param": "portfolio",
         "name": "My Portfolio Website",
         "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1684584095/portfolio-images/Mahmut-E%C5%9Fsiz-portfolio-min_j5ucfs.webp",
                      "https://res.cloudinary.com/dxskmyzdi/image/upload/v1684584096/portfolio-images/Mahmut-E%C5%9Fsiz-fullwiev-min_e0thgm.webp"],
@@ -8,6 +9,7 @@
  },
  "movies": {
     "id": 1,
+    "param": "movies",
     "name": "Movies website",
     "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392936/movies-website/movie_nyxchj.webp",
                  "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392940/movies-website/similar-full_z4hj8p.webp"],
@@ -15,6 +17,7 @@
 },
 "disco": {
    "id": 2,
+   "param": "disco",
    "name": "Disco",
    "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-min_g7gm3k.webp",
                 "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057183/disco/Vite-App-full-about-min_t6omhv.webp"],
@@ -22,6 +25,7 @@
 },
 "quotes": {
     "id": 3,
+    "param": "quotes",
     "name": "Quotes website",
     "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1680267018/compresspng/The-Best-Quotes_lcyrml.webp",
                  "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073098/compresspng/The-Best-Quotes-min_xqksyr.webp"],
@@ -29,6 +33,7 @@
  },
 "gym": {
     "id": 4,
+    "param": "gym",
     "name": "Gym website",
     "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604703/imageswebp/Loom-GYM_kdgomo.webp",
                  "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604706/imageswebp/Loom-GYM-extended_zzszgl.webp"],
