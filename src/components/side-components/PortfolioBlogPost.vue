@@ -71,7 +71,7 @@ const blogPostData = BlogPostData;
       <h2 class="pb-2 font-bold">
         Here are some other findings about my portfolio website:
       </h2>
-      <ul class="list-disc">
+      <ul class="list-disc pl-2">
         <li>
           The website is responsive, meaning that it looks good on all devices,
           including smartphones and tablets.
