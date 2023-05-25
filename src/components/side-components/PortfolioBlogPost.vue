@@ -91,7 +91,7 @@ const blogPostData = BlogPostData;
         Here are some of the technologies that I used to create my portfolio
         website:
       </h2>
-      <ul class="list-disc">
+      <ul class="list-disc pl-2">
         <li>vue js</li>
         <li>Vue-router</li>
         <li>TailwindCSS</li>
