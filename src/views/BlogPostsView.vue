@@ -41,7 +41,6 @@ const blogPost = ref(route.params.name);
       <div v-if="blogPost == 'movies'">
         <MoviesBlogPost />
       </div>
-      <div v-else>Ups!, nothing here yet.</div>
     </div>
   </section>
 </template>

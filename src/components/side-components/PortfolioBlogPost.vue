@@ -12,7 +12,7 @@ const blogPostData = BlogPostData;
   >
     <img
       :src="blogPostData.portfolio.pictures[0]"
-      class="m-auto w-full"
+      class="m-auto w-full shadow-md shadow-black/50"
       alt="blogPostData.portfolio name"
     />
     <h1 class="mt-12 text-center text-3xl font-bold">
