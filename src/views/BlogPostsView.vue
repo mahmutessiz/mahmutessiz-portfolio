@@ -1,11 +1,10 @@
 <script setup>
 import { ref } from "vue";
-import BlogPostData from "../data/BlogPostData.json";
 import { useRoute } from "vue-router";
 import MoviesBlogPost from "../components/side-components/MoviesBlogPost.vue";
+import PortfolioBlogPost from "../components/side-components/PortfolioBlogPost.vue";
 
 const route = useRoute();
-const blogPostData = BlogPostData;
 const blogPost = ref(route.params.name);
 </script>
 
@@ -35,11 +34,7 @@ const blogPost = ref(route.params.name);
     <!-- portfolio website -->
     <div class="grid w-full place-items-center text-white">
       <div v-if="blogPost == 'portfolio'">
-        <img
-          :src="blogPostData.portfolio.pictures[0]"
-          class="m-auto w-2/3"
-          :alt="blogPostData.portfolio + 'name'"
-        />
+        <PortfolioBlogPost />
       </div>
 
       <!-- Movies Website -->
