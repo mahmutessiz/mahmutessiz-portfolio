@@ -3,6 +3,9 @@ import { ref } from "vue";
 import { useRoute } from "vue-router";
 import MoviesBlogPost from "../components/side-components/MoviesBlogPost.vue";
 import PortfolioBlogPost from "../components/side-components/PortfolioBlogPost.vue";
+import QuotesBlogPost from "@/components/side-components/QuotesBlogPost.vue";
+import DiscoBlogPost from "@/components/side-components/DiscoBlogPost.vue";
+import CocktailBlogPost from "@/components/side-components/CocktailBlogPost.vue";
 
 const route = useRoute();
 const blogPost = ref(route.params.name);
@@ -40,6 +43,21 @@ const blogPost = ref(route.params.name);
       <!-- Movies Website -->
       <div v-if="blogPost == 'movies'">
         <MoviesBlogPost />
+      </div>
+
+      <!-- Quotes Website -->
+      <div v-if="blogPost == 'quotes'">
+        <QuotesBlogPost />
+      </div>
+
+      <!-- Disco Website -->
+      <div v-if="blogPost == 'disco'">
+        <DiscoBlogPost />
+      </div>
+
+      <!-- Cocktail Website -->
+      <div v-if="blogPost == 'cocktail'">
+        <CocktailBlogPost />
       </div>
     </div>
   </section>

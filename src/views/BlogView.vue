@@ -22,7 +22,7 @@ const blogPostData = BlogPostData;
         <li
           class="cursor-pointer font-bold transition-all duration-500 hover:text-white"
         >
-          <a href="/blog">Blog</a>
+          <RouterLink to="/blog">Blog</RouterLink>
         </li>
       </ul>
     </nav>

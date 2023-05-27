@@ -38,5 +38,13 @@
     "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604703/imageswebp/Loom-GYM_kdgomo.webp",
                  "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604706/imageswebp/Loom-GYM-extended_zzszgl.webp"],
     "description": "gym-site-kappa.vercel.app is a website built using HTML, JavaScript, CSS, and the simpleParallax library. These technologies combine to create a visually appealing and functional website. The simpleParallax library adds an extra layer of visual interest with parallax scrolling effects on images. Check it out to see these technologies in action!"
- }
+ },
+ "cocktail": {
+   "id": 4,
+   "param": "cocktail",
+   "name": "Cocktail website",
+   "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1684433627/cocktail-app/Cocktail-App-hero-min_nxqrgm.webp",
+                "https://res.cloudinary.com/dxskmyzdi/image/upload/v1684433630/cocktail-app/Cocktail-App-min_p5nyow.webp"],
+   "description": "Welcome to my cocktail app! This is a website that I created to help you find and enjoy various cocktails. You can search cocktails by name and get information such as how to make them, what ingredients they have, and more. I created this website using Nuxt3, TypeScript, Cocktail API, and TailwindCSS. I also used some images from Unsplash for the landing page. This website is my first Nuxt3 project and I learned a lot from it. I learned about layout, components, pages directories, useFetch, and other features of Nuxt3. I loved how easy and fun it was to use Nuxt3 for this project. I hope you like my website and find it useful. Cheers!"
+}
 }

@@ -29,7 +29,7 @@ export default {
         />
       </div>
 
-      <ul class="flex flex-col gap-2 py-4 px-6 sm:w-1/2">
+      <ul class="flex flex-col gap-2 px-6 py-4 sm:w-1/2">
         <li class="text-lg font-bold text-white/70">
           {{ projectData.projectName }}
         </li>

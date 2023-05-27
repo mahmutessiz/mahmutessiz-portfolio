@@ -13,7 +13,7 @@ const blogPostData = BlogPostData;
     <img
       :src="blogPostData.movies.pictures[0]"
       class="m-auto w-full"
-      alt="blogPostData.portfolio name"
+      :alt="blogPostData.movies.name"
     />
     <h1 class="mt-12 text-center text-3xl font-bold">
       {{ blogPostData.movies.name }}
@@ -148,6 +148,9 @@ const blogPostData = BlogPostData;
     <br />
     <p class="w-full">Thank you for reading!</p>
     <br />
-    <img :src="blogPostData.movies.pictures[1]" alt="" />
+    <img
+      :src="blogPostData.movies.pictures[1]"
+      :alt="blogPostData.movies.name"
+    />
   </div>
 </template>

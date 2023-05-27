@@ -11,7 +11,7 @@
     "tools": "Vue.js, vue-router, pinia, swiper js, Tailwindcss, daisyUI and TMDB API",
     "linkGithub": "https://github.com/mahmutessiz/Product-website",
     "linkDemo": "https://movies-app-blush-ten.vercel.app/",
-    "linkBlog": ""
+    "linkBlog": "https://www.mahmutessiz.dev/blog-post/movies"
   },
   {
     "key": "3",
@@ -27,7 +27,7 @@
     "tools": "Vue.js, Tailwindcss, daisyUI , vanilla-tilt.js",
     "linkGithub": "https://github.com/mahmutessiz/Product-website",
     "linkDemo": "https://product-website-one.vercel.app/",
-    "linkBlog": ""
+    "linkBlog": "https://www.mahmutessiz.dev/blog-post/disco"
   },
   {
     "key": "1",
@@ -40,7 +40,7 @@
     "tools": "Vue.js, vue-router, Tailwindcss",
     "linkGithub": "https://github.com/mahmutessiz/quotes-website",
     "linkDemo": " https://quotes-website-mahmutessiz.vercel.app/",
-    "linkBlog": "https://medium.com/@mahmutessiz71/my-first-vue-website-783e94afe0a9"
+    "linkBlog": "https://www.mahmutessiz.dev/blog-post/quotes"
   },
   {
     "key": "2",
@@ -66,6 +66,6 @@
     "tools": "nuxt3, cocktail api",
     "linkGithub": "https://github.com/mahmutessiz/Cocktail_app/tree/master/cocktail-recipe-app",
     "linkDemo": "https://cocktail-app-umber.vercel.app/",
-    "linkBlog": ""
+    "linkBlog": "https://www.mahmutessiz.dev/blog-post/cocktail"
   }
 ]
