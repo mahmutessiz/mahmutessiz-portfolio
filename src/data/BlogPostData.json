@@ -33,10 +33,10 @@
  },
 "gym": {
     "id": 4,
-    "param": "gym",
-    "name": "Gym website",
-    "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604703/imageswebp/Loom-GYM_kdgomo.webp",
-                 "https://res.cloudinary.com/dxskmyzdi/image/upload/v1675604706/imageswebp/Loom-GYM-extended_zzszgl.webp"],
+    "param": "auto",
+    "name": "Auto dealership website",
+    "pictures": ["https://res.cloudinary.com/dxskmyzdi/image/upload/v1685546402/oto-galeri/%C3%96zbeyler-Auto-min_saavgz.webp",
+                 "https://res.cloudinary.com/dxskmyzdi/image/upload/v1685546403/oto-galeri/%C3%96zbeyler-Auto-full-min_jlh0uq.webp"],
     "description": "gym-site-kappa.vercel.app is a website built using HTML, JavaScript, CSS, and the simpleParallax library. These technologies combine to create a visually appealing and functional website. The simpleParallax library adds an extra layer of visual interest with parallax scrolling effects on images. Check it out to see these technologies in action!"
  },
  "cocktail": {

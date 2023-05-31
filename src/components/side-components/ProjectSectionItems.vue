@@ -39,7 +39,6 @@ export default {
           {{ projectData.tools }}
         </li>
         <li>
-          <span class="font-bold text-white/60">Links: </span><br />
           <br />
           <div class="flex flex-wrap gap-2">
             <a

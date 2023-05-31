@@ -59,6 +59,11 @@ const blogPost = ref(route.params.name);
       <div v-if="blogPost == 'cocktail'">
         <CocktailBlogPost />
       </div>
+
+      <!-- Movies Website -->
+      <div v-if="blogPost == 'auto'">
+        <div class="grid place-items-center py-60 text-3xl">Coming Soon...</div>
+      </div>
     </div>
   </section>
 </template>
