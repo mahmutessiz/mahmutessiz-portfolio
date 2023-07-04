@@ -34,7 +34,7 @@ export default {
   <button
     type="button"
     id="openButton"
-    class="fixed top-[85%] left-[85%] z-50 w-fit rounded-full bg-primary-text-thistle px-2 py-1 text-lg opacity-50 shadow-lg transition-all duration-300 md:hidden"
+    class="fixed left-[85%] top-[85%] z-50 w-fit rounded-full bg-primary-text-thistle px-2 py-1 text-lg opacity-50 shadow-lg transition-all duration-300 md:hidden"
     @click="openCloseSidebar"
   >
     &#9776;
@@ -44,9 +44,10 @@ export default {
     <ul class="flex list-none flex-col">
       <li :class="sideBarItems.listStyles">
         <a
-          href="https://github.com/mahmutessiz"
+          href="../assets/Resume_MahmutEssiz.pdf"
           class="text-primary-text-thistle"
           title="CV"
+          download="Resume_MahmutEssiz.pdf"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
