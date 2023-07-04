@@ -44,10 +44,9 @@ export default {
     <ul class="flex list-none flex-col">
       <li :class="sideBarItems.listStyles">
         <a
-          href="../assets/Resume_MahmutEssiz.pdf"
+          href="https://drive.google.com/file/d/1Omc80ZHmPYpYmZRkr3pdLYw4-ZiX_WfL/view?usp=sharing"
           class="text-primary-text-thistle"
           title="CV"
-          download
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
