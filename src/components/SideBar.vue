@@ -47,6 +47,7 @@ export default {
           href="../assets/Resume_MahmutEssiz.pdf"
           class="text-primary-text-thistle"
           title="CV"
+          download
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
