@@ -1,5 +1,4 @@
 [
-  
   {
     "key": "4",
     "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392937/movies-website/similar_kqe7dj.webp",
@@ -41,15 +40,15 @@
   },
   {
     "key": "2",
-    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1685546402/oto-galeri/%C3%96zbeyler-Auto-min_saavgz.webp",
+    "imageSrc": "https://res.cloudinary.com/dxskmyzdi/image/upload/v1704620935/budget_tracker_images/vb7pcpzj8e7ok628zyzj.jpg",
     "descriptionContainerStyle": "w-full border bg-primary-bg-darkslategray py-4 text-primary-text-thistle",
     "projectImgStyle": "w-full cursor-pointer transition-all duration-500 hover:opacity-80",
-    "projectName": "Auto dealership website",
-    "routerName": "auto",
-    "projectDescription": "This is an automotive website that showcases various car models in excellent condition. The website provides contact information etc.",
-    "tools": "Vue.js, vue-router, Tailwindcss, swiper js",
-    "linkGithub": "https://github.com/mahmutessiz/oto_galeri/tree/master/oto-galery",
-    "linkDemo": "https://oto-galeri.vercel.app/",
+    "projectName": "Budget tracker",
+    "routerName": "budget_tracker",
+    "projectDescription": "This is a tool for easy financial management. It tracks and categorizes income and expenses, monitors spending, and gives real-time financial updates with visuals.",
+    "tools": "Vue.js, Tailwindcss, Supabase, Supabase Auth, daisyUI, Chart.js, Vue-i18n",
+    "linkGithub": "https://github.com/mahmutessiz/budget-tracker-desktop",
+    "linkDemo": "https://budget-app-mahmutessiz.vercel.app/",
     "linkBlog": ""
   },
   {

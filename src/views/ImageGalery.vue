@@ -26,7 +26,7 @@ export default {
       </RouterLink>
     </nav>
     <ul
-      class="flex w-full flex-wrap items-center justify-center gap-8 px-4 pt-8 pb-24"
+      class="flex w-full flex-wrap items-center justify-center gap-8 px-4 pb-24 pt-8"
     >
       <li
         v-for="data in ImagesData[routeName]"

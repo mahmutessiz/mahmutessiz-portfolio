@@ -1,18 +1,15 @@
-
-  {
-
-  "disco" : [ "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-min_g7gm3k.webp",
-   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057180/disco/Vite-App-pricing-min_vylwdg.webp",
-   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-contact-min_i7xi3y.webp",
-   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057183/disco/Vite-App-full-about-min_t6omhv.webp",
-   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057180/disco/Vite-App-full-pricing-min_do3h8o.webp",
-   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-full-contact-min_u5nvej.webp",
-   "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057182/disco/Vite-App-full-min_ecpqaz.webp"
-
+{
+  "disco": [
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-min_g7gm3k.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057180/disco/Vite-App-pricing-min_vylwdg.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-contact-min_i7xi3y.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057183/disco/Vite-App-full-about-min_t6omhv.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057180/disco/Vite-App-full-pricing-min_do3h8o.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057179/disco/Vite-App-full-contact-min_u5nvej.webp",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1679057182/disco/Vite-App-full-min_ecpqaz.webp"
   ],
 
-  "quotes" : 
-  [
+  "quotes": [
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073098/compresspng/The-Best-Quotes-min_xqksyr.webp",
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073098/compresspng/The-Best-Quotes-categories-min_tk2my2.webp",
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073097/compresspng/The-Best-Quotes-404-min_c2hvlz.webp",
@@ -21,17 +18,19 @@
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1677073096/compresspng/The-Best-Quotes-404-mobile-min_ui3xn5.webp"
   ],
 
-  "auto" :[
-    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1685546403/oto-galeri/%C3%96zbeyler-Auto-full-min_jlh0uq.webp",
-    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1685546402/oto-galeri/%C3%96zbeyler-Auto-min_saavgz.webp"
+  "budget_tracker": [
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1704620935/budget_tracker_images/vb7pcpzj8e7ok628zyzj.jpg",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1704620934/budget_tracker_images/ipmfqka5xo1mx48dochh.jpg",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1704620934/budget_tracker_images/hxwi8reyzkkfhs8ipkng.jpg",
+    "https://res.cloudinary.com/dxskmyzdi/image/upload/v1704620935/budget_tracker_images/g459gxmqc5aoeevwsekj.jpg"
   ],
-  "cocktailApp" :[
+  "cocktailApp": [
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1684433627/cocktail-app/Cocktail-App-hero-min_nxqrgm.webp",
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1684433630/cocktail-app/Cocktail-App-min_p5nyow.webp",
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1684433626/cocktail-app/Cocktail-App-resuls-min_ua3sf5.webp"
   ],
 
-  "moviesApp" :[
+  "moviesApp": [
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392937/movies-website/similar_kqe7dj.webp",
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392936/movies-website/movie_nyxchj.webp",
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392940/movies-website/similar-full_z4hj8p.webp",
@@ -39,4 +38,3 @@
     "https://res.cloudinary.com/dxskmyzdi/image/upload/v1681392935/movies-website/404_o6qneg.webp"
   ]
 }
-
