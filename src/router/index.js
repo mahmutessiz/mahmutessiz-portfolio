@@ -37,6 +37,14 @@ const router = createRouter({
       component: () => import("../views/BlogPostsView.vue"),
     },
     {
+      path: "/better-auth-hono-nuxt",
+      name: "better-auth-hono-nuxt",
+      meta: {
+        title: "Mahmut Eşsiz | Better Auth with Hono and Nuxt",
+      },
+      component: () => import("../views/BetterBlog.vue"),
+    },
+    {
       path: "/:pathMatch(.*)*",
       meta: {
         title: "Mahmut Eşsiz | 404 Error",
