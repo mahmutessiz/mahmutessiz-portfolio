@@ -1,10 +1,5 @@
-<script>
+<script setup>
 import ProjectSectionItems from "./side-components/ProjectSectionItems.vue";
-export default {
-  components: {
-    ProjectSectionItems,
-  },
-};
 </script>
 
 <template>

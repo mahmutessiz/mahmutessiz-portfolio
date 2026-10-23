@@ -1,32 +1,11 @@
-<script>
-export default {
-  data() {
-    return {
-      sideBarItems: {
-        listStyles: "my-4 cursor-pointer transition-transform hover:rotate-12",
-        asideStyles:
-          "fixed top-[19%] left-[80%] md:top-[29%] md:left-4 flex w-14 items-center justify-center rounded-2xl bg-primary-bg-black py-10 px-2 shadow-lg shadow-black z-50",
-      },
-      rotation: true,
-    };
-  },
-  methods: {
-    openCloseSidebar(event) {
-      if (this.rotation == true) {
-        event.target.classList.add("rotate-90");
-        const aside = document.querySelector("aside");
-        aside.classList.remove("hidden");
-
-        this.rotation = false;
-      } else {
-        event.target.classList.remove("rotate-90");
-
-        const aside = document.querySelector("aside");
-        aside.classList.add("hidden");
-        this.rotation = true;
-      }
-    },
-  },
+<script setup>
+import { ref } from "vue";
+import resumeUrl from "../assets/Resume_MahmutEssiz.pdf";
+const isOpen = ref(false);
+const sideBarItems = {
+  listStyles: "my-4 cursor-pointer transition-transform hover:rotate-12",
+  asideStyles:
+    "fixed top-[19%] left-[80%] md:top-[29%] md:left-4 w-14 items-center justify-center rounded-2xl bg-primary-bg-black py-10 px-2 shadow-lg shadow-black z-50",
 };
 </script>
 
@@ -35,16 +14,25 @@ export default {
     type="button"
     id="openButton"
     class="fixed left-[85%] top-[85%] z-50 w-fit rounded-full bg-primary-text-thistle px-2 py-1 text-lg opacity-50 shadow-lg transition-all duration-300 md:hidden"
-    @click="openCloseSidebar"
+    @click="isOpen = !isOpen"
+    :class="{ 'rotate-90': isOpen }"
+    :aria-expanded="isOpen"
+    aria-controls="social-sidebar"
+    aria-label="Toggle social links"
   >
     &#9776;
   </button>
 
-  <aside :class="sideBarItems.asideStyles" class="hidden md:block">
+  <aside
+    id="social-sidebar"
+    :class="[sideBarItems.asideStyles, isOpen ? 'flex' : 'hidden']"
+    class="md:flex"
+    @keydown.esc="isOpen = false"
+  >
     <ul class="flex list-none flex-col">
       <li :class="sideBarItems.listStyles">
         <a
-          href="resume.pdf"
+          :href="resumeUrl"
           class="text-primary-text-thistle"
           title="CV"
           download

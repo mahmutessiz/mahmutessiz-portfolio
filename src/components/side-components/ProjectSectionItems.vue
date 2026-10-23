@@ -1,15 +1,6 @@
-<script>
+<script setup>
 import ProjectData from "../../data/ProjectData.json";
-import { useRouter } from "vue-router";
-
-export default {
-  data() {
-    return {
-      ProjectData: ProjectData,
-      router: useRouter(),
-    };
-  },
-};
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
@@ -20,14 +11,16 @@ export default {
       :key="projectData.key"
       class="mt-12 flex max-w-[60rem] flex-wrap items-center justify-between gap-4 overflow-hidden rounded-lg border border-primary-text-thistle/50 text-white/50 sm:w-4/5 md:flex-nowrap md:gap-8"
     >
-      <div class="">
+      <RouterLink
+        :to="`/galery/${projectData.routerName}`"
+        :aria-label="`View ${projectData.projectName} images`"
+      >
         <img
           :src="projectData.imageSrc"
           :alt="projectData.projectName"
           class="min-h-[10rem] cursor-pointer sm:min-h-[15rem] sm:min-w-[20rem] md:w-[28rem]"
-          @click="router.push(`/galery/${projectData.routerName}`)"
         />
-      </div>
+      </RouterLink>
 
       <ul class="flex flex-col gap-2 px-6 py-4 sm:w-1/2">
         <li class="text-lg font-bold text-white/70">

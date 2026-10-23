@@ -1,16 +1,5 @@
-<script>
-export default {
-  data() {
-    return {
-      listStyle:
-        "cursor-pointer transition-colors duration-300 hover:text-white",
-      footerStyle:
-        "flex flex-wrap w-full items-center justify-center gap-4 bg-primary-bg-black px-2 text-secondary-text-silver",
-      copRight:
-        "w-full bg-primary-bg-black py-4 text-center text-sm text-secondary-text-silver",
-    };
-  },
-};
+<script setup>
+const currentYear = new Date().getFullYear();
 </script>
 
 <template>
@@ -89,16 +78,18 @@ export default {
           <RouterLink to="/blog" class="text-secondary-text-silver"
             >Blog</RouterLink
           ><br />
-          <a class="text-secondary-text-silver" href="#project">Projects</a
+          <RouterLink class="text-secondary-text-silver" to="/#project"
+            >Projects</RouterLink
           ><br />
-          <a class="text-secondary-text-silver" href="#contact">Contact</a
+          <RouterLink class="text-secondary-text-silver" to="/#contact"
+            >Contact</RouterLink
           ><br />
         </div>
       </div>
     </div>
     <div>
       <div class="mt-4 flex justify-center">
-        <p class="text-gray-400">Mahmut Eşsiz &copy; 2023</p>
+        <p class="text-gray-400">Mahmut Eşsiz &copy; {{ currentYear }}</p>
       </div>
     </div>
   </footer>

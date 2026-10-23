@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
@@ -53,15 +53,15 @@ const router = createRouter({
       component: () => import("@/views/ErrorView.vue"),
     },
   ],
-  scrollBehavior() {
-    // always scroll to top
-    return { top: 0, behavior: "smooth" };
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) return savedPosition;
+    if (to.hash) return { el: to.hash, top: 80, behavior: "smooth" };
+    return { top: 0 };
   },
 });
 
-router.beforeEach((to, from, next) => {
-  document.title = `${to.meta.title}`;
-  next();
+router.afterEach((to) => {
+  document.title = to.meta.title || "Mahmut Eşsiz";
 });
 
 export default router;

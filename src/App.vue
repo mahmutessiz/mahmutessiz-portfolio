@@ -1,13 +1,6 @@
-<script>
+<script setup>
 import FooterSection from "./components/FooterSection.vue";
 import { RouterView } from "vue-router";
-
-export default {
-  components: {
-    FooterSection,
-    RouterView,
-  },
-};
 </script>
 
 <template>

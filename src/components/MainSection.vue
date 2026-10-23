@@ -1,11 +1,5 @@
-<script>
+<script setup>
 import AboutSection from "./AboutSection.vue";
-
-export default {
-  components: {
-    AboutSection,
-  },
-};
 </script>
 <template>
   <main>

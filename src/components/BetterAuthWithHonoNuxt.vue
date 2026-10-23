@@ -58,20 +58,17 @@
       </div>
 
       <div class="px-6 pb-5 pt-3">
-        <button
-          type="button"
-          @click="router.push('/better-auth-hono-nuxt')"
+        <RouterLink
+          to="/better-auth-hono-nuxt"
           class="text-sm font-semibold text-sky-600 group-hover:underline dark:text-sky-400"
         >
           Read More →
-        </button>
+        </RouterLink>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { useRouter } from "vue-router";
-
-const router = useRouter();
+import { RouterLink } from "vue-router";
 </script>

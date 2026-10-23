@@ -34,7 +34,7 @@ const blogPostData = BlogPostData;
     <div
       class="flex w-96 flex-col items-center justify-center gap-4 overflow-hidden rounded-lg border border-primary-text-thistle/50 text-primary-text-thistle"
       v-for="blogPost in blogPostData"
-      :key="blogPost"
+      :key="blogPost.param"
     >
       <img :src="blogPost.pictures[0]" :alt="blogPost.name" />
       <ul class="w-full px-2 pb-4">

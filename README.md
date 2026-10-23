@@ -1,35 +1,40 @@
-# mahmutessiz-portfolio
+# Mahmut Eşsiz — Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+A Vue 3 portfolio and blog built with the Composition API, Vue Router, Vite 8 and Tailwind CSS 4. Components with JavaScript use `<script setup>`; static components need no script block.
 
-## Recommended IDE Setup
+## Development
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+Use Node **22.22.2+ (22.x)**, **24.15+ (24.x)**, or **26+**. The repository's `.nvmrc` selects Node 22.
 
 ```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+npm ci
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
+## Checks
 
 ```sh
 npm run lint
+npm test
+npm run build
 ```
+
+`npm run lint:fix` applies ESLint fixes. `npm run format` formats source files. `npm run preview` previews the built site locally.
+
+## Structure
+
+- `src/components`: portfolio sections and blog content.
+- `src/views`: route-level pages.
+- `src/composables/useActiveSection.js`: section tracking, with observer cleanup on unmount.
+- `src/data`: projects, screenshots and blog metadata.
+- `src/router/index.js`: lazy page loading, titles and hash/history scrolling.
+
+Gallery and blog views derive content from reactive route parameters, including when navigating between URLs that reuse the same component. Unknown content displays a fallback. Existing URLs, including `/galery/:id`, remain supported.
+
+## Dokploy / Nixpacks
+
+The pasted deployment failed because Node 18 cannot run the installed Vite toolchain. `nixpacks.toml` explicitly selects Node 22, installs build dependencies using `npm ci --include=dev`, builds `dist`, and runs `npm start`.
+
+Use Nixpacks as the build provider and configure the domain's container port to **3000**. Remove any Dokploy environment override that still selects Node 18. The production server serves `dist` with SPA fallback, so refreshing blog and gallery URLs works. For static hosting, publish `dist` and rewrite unknown paths to `index.html`; `vercel.json` already supplies this for Vercel.
+
+The `compression` override selects the patched release required by the production server's dependency tree.
